@@ -40,8 +40,7 @@ The environment includes a Wazuh 4.7.5 all-in-one server, a Windows 10 endpoint 
 ## Screenshots
 ### Wazuh Dashboard
 
-![Wazuh Dashboard](enterprise-soc-lab-wazuh-mitre-detection/screenshots
-/Wazuh dashboard in window VM.png)
+![Wazuh Dashboard](screenshots/Attack%204%20%E2%80%94%20brute%20force%20SSH%20on%20Linux%20%28%20Ubntu%29.png)
 
 ### Both Agents Active
 
