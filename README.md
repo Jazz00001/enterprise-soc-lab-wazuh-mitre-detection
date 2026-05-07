@@ -89,7 +89,7 @@ The environment includes a Wazuh 4.7.5 all-in-one server, a Windows 10 endpoint 
 
 ## Full SOC Triage Report
 
-- [Full SOC Triage Report](SOC%20Triage.pdf)
+- [Full SOC Triage Report](SOC-Lab-Full-Triage-Report.pdf)
 
 ## Detection Rules
 
