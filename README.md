@@ -9,6 +9,7 @@ This project is a mini enterprise SOC lab built using Wazuh SIEM/XDR. The lab si
 The environment includes a Wazuh all-in-one server, a Windows 10 endpoint with Sysmon, and an Ubuntu 22.04 endpoint. The project demonstrates log collection, alert triage, MITRE ATT&CK mapping, File Integrity Monitoring, vulnerability detection, and formal incident report writing.
 
 ## Lab Architecture
+
 | Component | Tool / OS | Role | IP Address |
 |---|---|---|---|
 | SIEM/XDR | Wazuh 4.7.5 | Manager, Dashboard, Indexer, alerting, FIM | 192.168.56.102 |
@@ -17,13 +18,11 @@ The environment includes a Wazuh all-in-one server, a Windows 10 endpoint with S
 | Virtualisation | VirtualBox | Host-only lab network | 192.168.56.0/24 |
 
 ## Attack Simulations
-This lab includes six attack/detection scenarios:
-
 | # | Attack / Detection | Platform | Status |
 |---|---|---|---|
 | 1 | Brute force failed logins | Windows | Completed |
 | 2 | Suspicious PowerShell execution | Windows | Completed |
-| 3 | New local user creation | Windows | Completed / Add screenshot if available |
+| 3 | New local user creation | Windows | Completed |
 | 4 | SSH brute force | Linux | Completed |
 | 5 | File Integrity Monitoring — `/etc/hosts` modified | Linux | Completed |
 | 6 | Privilege escalation using sudo | Linux | Completed |
@@ -39,14 +38,17 @@ This lab includes six attack/detection scenarios:
 | Sudo privilege escalation | Linux `/var/log/auth.log` | T1548.003 | Sudo and Sudo Caching | Privilege Escalation | High |
 | Vulnerability detection | Wazuh Vulnerability Detector | N/A | CVE exposure / vulnerability management | Risk Management | High |
 
-
 ## Incident Reports
-- [IR-001: Windows Brute Force Failed Logins]
-- [IR-002: Suspicious PowerShell Execution]
-- [IR-003: New Local User Creation — Windows]
-- [IR-004: Linux SSH Brute Force]
-- [IR-005: File Integrity Monitoring — Hosts File Modified]
-- [IR-006: Linux Sudo Privilege Escalation]
+
+- [IR-001: Windows Brute Force Failed Logins](reports/IR-001-Windows-Brute-Force-Failed-Logins.pdf)
+- [IR-002: Suspicious PowerShell Execution](reports/IR-002-Suspicious-PowerShell-Execution.pdf)
+- [IR-003: New Local User Creation — Windows](reports/IR-003-New-Local-User-Creation-Windows.pdf)
+- [IR-004: Linux SSH Brute Force](reports/IR-004-Linux-SSH-Brute-Force.pdf)
+- [IR-005: File Integrity Monitoring — Hosts File Modified](reports/IR-005-File-Integrity-Monitoring-Hosts-Modified.pdf)
+- [IR-006: Linux Sudo Privilege Escalation](reports/IR-006-Linux-Sudo-Privilege-Escalation.pdf)
+
+
+
 
 ## Detection Rules
 This lab used Wazuh built-in rules for most detections. Planned custom rule examples are included here:
