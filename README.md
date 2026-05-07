@@ -2,14 +2,13 @@
 Mini enterprise SOC lab using Wazuh SIEM/XDR with Windows and Linux endpoints, MITRE ATT&amp;CK mapping, vulnerability detection, and incident reports.
 
 # Enterprise SOC Lab — Wazuh SIEM/XDR with MITRE ATT&CK Detection
-## Overview
 
+## Overview
 This project is a mini enterprise SOC lab built using Wazuh SIEM/XDR. The lab simulates, detects, and investigates real-world attack techniques across Windows and Linux endpoints.
 
-The environment includes a Wazuh all-in-one server, a Windows 10 endpoint with Sysmon, and an Ubuntu 22.04 endpoint. The project demonstrates log collection, alert triage, MITRE ATT&CK mapping, File Integrity Monitoring, vulnerability detection, and formal incident report writing.
+The environment includes a Wazuh 4.7.5 all-in-one server, a Windows 10 endpoint with Sysmon, and an Ubuntu 22.04.5 endpoint. The project demonstrates log collection, alert triage, MITRE ATT&CK mapping, File Integrity Monitoring, vulnerability detection, and formal incident report writing.
 
 ## Lab Architecture
-
 | Component | Tool / OS | Role | IP Address |
 |---|---|---|---|
 | SIEM/XDR | Wazuh 4.7.5 | Manager, Dashboard, Indexer, alerting, FIM | 192.168.56.102 |
@@ -38,22 +37,65 @@ The environment includes a Wazuh all-in-one server, a Windows 10 endpoint with S
 | Sudo privilege escalation | Linux `/var/log/auth.log` | T1548.003 | Sudo and Sudo Caching | Privilege Escalation | High |
 | Vulnerability detection | Wazuh Vulnerability Detector | N/A | CVE exposure / vulnerability management | Risk Management | High |
 
+## Screenshots
+### Wazuh Dashboard
+
+![Wazuh Dashboard](screenshots/wazuh-dashboard.png)
+
+### Both Agents Active
+
+![Agents Connected](screenshots/agents-connected.png)
+
+### Windows Brute Force Alert
+
+![Windows Brute Force Alert](screenshots/windows-brute-force-alert.png)
+
+### Suspicious PowerShell Execution
+
+![PowerShell Alert](screenshots/powershell-alert.png)
+
+### New Local User Creation
+
+![New User Alert](screenshots/new-user-alert.png)
+
+### Linux SSH Brute Force
+
+![Linux SSH Brute Force](screenshots/linux-ssh-brute-force-alert.png)
+
+### File Integrity Monitoring
+
+![FIM Alert](screenshots/fim-alert.png)
+
+### Linux Sudo Privilege Escalation
+
+![Sudo Privilege Escalation](screenshots/sudo-privilege-escalation-alert.png)
+
+### MITRE ATT&CK Dashboard
+
+![MITRE Dashboard](screenshots/mitre-dashboard.png)
+
+### Vulnerability Detection
+
+![Vulnerability Scan](screenshots/vulnerability-scan.png)
+
 ## Incident Reports
 
-- [IR-001: Windows Brute Force Failed Logins](reports/IR-001-Windows-Brute-Force-Failed-Logins.pdf)
-- [IR-002: Suspicious PowerShell Execution](reports/IR-002-Suspicious-PowerShell-Execution.pdf)
-- [IR-003: New Local User Creation — Windows](reports/IR-003-New-Local-User-Creation-Windows.pdf)
-- [IR-004: Linux SSH Brute Force](reports/IR-004-Linux-SSH-Brute-Force.pdf)
-- [IR-005: File Integrity Monitoring — Hosts File Modified](reports/IR-005-File-Integrity-Monitoring-Hosts-Modified.pdf)
-- [IR-006: Linux Sudo Privilege Escalation](reports/IR-006-Linux-Sudo-Privilege-Escalation.pdf)
+- [IR-001: Windows Brute Force Failed Logins](Reports/IR-001-Windows-Brute-Force-Failed-Logins.pdf)
+- [IR-002: Suspicious PowerShell Execution](Reports/IR-002-Suspicious-PowerShell-Execution.pdf)
+- [IR-003: New Local User Creation — Windows](Reports/IR-003-New-Local-User-Creation-Windows.pdf)
+- [IR-004: Linux SSH Brute Force](Reports/IR-004-Linux-SSH-Brute-Force.pdf)
+- [IR-005: File Integrity Monitoring — Hosts File Modified](Reports/IR-005-File-Integrity-Monitoring-Hosts-Modified.pdf)
+- [IR-006: Linux Sudo Privilege Escalation](Reports/IR-006-Linux-Sudo-Privilege-Escalation.pdf)
 
+## Full SOC Triage Report
 
-
+- [Full SOC Triage Report](SOC%20Triage.pdf)
 
 ## Detection Rules
+
 This lab used Wazuh built-in rules for most detections. Planned custom rule examples are included here:
 
-- [Custom Rules XML]
+- [Custom Rules XML](Rules/custom-rules.xml)
 
 Confirmed built-in rules included:
 
@@ -68,6 +110,7 @@ Confirmed built-in rules included:
 | 550 | Integrity checksum changed | FIM / Syscheck |
 
 ## Key Skills Demonstrated
+
 - Wazuh SIEM/XDR deployment and configuration
 - Windows and Linux agent setup
 - Sysmon deployment and Windows event collection
@@ -83,19 +126,22 @@ Confirmed built-in rules included:
 - GitHub project documentation
 
 ## Lessons Learned
+
 1. I learned how a SIEM collects logs from multiple endpoints and turns raw events into useful security alerts.
 2. I learned how Windows Sysmon improves visibility into process creation and suspicious PowerShell activity.
-3. I learned how Linux authentication logs can reveal SSH brute-force attempts and sudo privilege escalation behavior.
+3. I learned how Linux authentication logs reveal SSH brute-force attempts and sudo privilege escalation behavior.
 4. I learned how MITRE ATT&CK helps explain attacker behavior in a structured way.
-5. I learned how important documentation is in SOC work, because detection is only useful if an analyst can explain what happened, why it matters, and how to respond.
+5. I learned that documentation is a major part of SOC work because an analyst must explain what happened, why it matters, and how to respond.
 
 ## Future Improvements
+
 - Add a dedicated Kali attacker VM.
-- Fully implement and test custom Wazuh rules with rule IDs 100001 and 100002.
+- Fully implement and test custom Wazuh rules with custom rule IDs.
 - Enable Wazuh Active Response to automatically block brute-force source IPs.
 - Add Slack or email alerting for high-severity alerts.
 - Export raw JSON evidence for important alerts.
 - Create a cleaner network diagram using draw.io or Canva.
 
 ## Resume Bullet
+
 Built a mini enterprise SOC lab using Wazuh SIEM/XDR with Windows Sysmon and Ubuntu Linux endpoints. Configured log collection, simulated 6 attack scenarios, mapped detections to the MITRE ATT&CK framework, enabled FIM and vulnerability detection, and documented formal incident investigation reports.
