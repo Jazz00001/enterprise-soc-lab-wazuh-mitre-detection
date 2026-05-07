@@ -44,7 +44,7 @@ The environment includes a Wazuh 4.7.5 all-in-one server, a Windows 10 endpoint 
 
 ### Both Agents Active
 
-![Agents Connected](screenshots/agents-connected.png)
+![Agents Connected](screenshots/Ubuntu ping to window.png)(screenshots/Window ping to Ubuntu.png)
 
 ### Windows Brute Force Alert
 
