@@ -44,7 +44,7 @@ The environment includes a Wazuh 4.7.5 all-in-one server, a Windows 10 endpoint 
 
 ### Both Agents Active
 
-![Agents Connected](screenshots/Ubuntu ping to window.png)(screenshots/ERROR (5582) Unavailable vulnerabilities at the NVD database. The scan is aborted.png)
+![Agents Connected](screenshots/agents-connected)
 
 ### Windows Brute Force Alert
 
