@@ -9,6 +9,7 @@ This project is a mini enterprise SOC lab built using Wazuh SIEM/XDR. The lab si
 The environment includes a Wazuh 4.7.5 all-in-one server, a Windows 10 endpoint with Sysmon, and an Ubuntu 22.04.5 endpoint. The project demonstrates log collection, alert triage, MITRE ATT&CK mapping, File Integrity Monitoring, vulnerability detection, and formal incident report writing.
 
 ## Lab Architecture
+
 | Component | Tool / OS | Role | IP Address |
 |---|---|---|---|
 | SIEM/XDR | Wazuh 4.7.5 | Manager, Dashboard, Indexer, alerting, FIM | 192.168.56.102 |
@@ -17,6 +18,7 @@ The environment includes a Wazuh 4.7.5 all-in-one server, a Windows 10 endpoint 
 | Virtualisation | VirtualBox | Host-only lab network | 192.168.56.0/24 |
 
 ## Attack Simulations
+
 | # | Attack / Detection | Platform | Status |
 |---|---|---|---|
 | 1 | Brute force failed logins | Windows | Completed |
@@ -27,6 +29,7 @@ The environment includes a Wazuh 4.7.5 all-in-one server, a Windows 10 endpoint 
 | 6 | Privilege escalation using sudo | Linux | Completed |
 
 ## Detections and MITRE ATT&CK Mapping
+
 | Detection | Log Source | MITRE ID | Technique | Tactic | Severity |
 |---|---|---|---|---|---|
 | Windows failed logins | Windows Security Log | T1110.001 | Brute Force: Password Guessing | Credential Access | High |
@@ -36,7 +39,6 @@ The environment includes a Wazuh 4.7.5 all-in-one server, a Windows 10 endpoint 
 | File `/etc/hosts` modified | Wazuh FIM / Syscheck | T1565.001 | Stored Data Manipulation | Impact | Medium |
 | Sudo privilege escalation | Linux `/var/log/auth.log` | T1548.003 | Sudo and Sudo Caching | Privilege Escalation | High |
 | Vulnerability detection | Wazuh Vulnerability Detector | N/A | CVE exposure / vulnerability management | Risk Management | High |
-
 ## Screenshots
 ### Wazuh Dashboard
 
@@ -74,10 +76,10 @@ The environment includes a Wazuh 4.7.5 all-in-one server, a Windows 10 endpoint 
 
 ![MITRE Dashboard](screenshots/mitre-dashboard)
 
-### Vulnerability Detection
+### Vulnerability Detection 
 
 ![Vulnerability Scan](screenshots/vulnerability-scan-ubuntu)
-![Vulnerability Scan](screenshots/vulnerability-scan-windows)
+
 
 ## Incident Reports
 
