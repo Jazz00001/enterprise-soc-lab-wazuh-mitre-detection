@@ -40,7 +40,7 @@ The environment includes a Wazuh 4.7.5 all-in-one server, a Windows 10 endpoint 
 ## Screenshots
 ### Wazuh Dashboard
 
-![Wazuh Dashboard](screenshots/wazuh-dashboard.png)
+![Wazuh Dashboard](screenshots/Wazuh dashboard on Main PC.png)
 
 ### Both Agents Active
 
