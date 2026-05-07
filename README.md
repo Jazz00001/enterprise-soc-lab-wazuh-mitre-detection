@@ -40,7 +40,8 @@ The environment includes a Wazuh 4.7.5 all-in-one server, a Windows 10 endpoint 
 ## Screenshots
 ### Wazuh Dashboard
 
-![Wazuh Dashboard](enterprise-soc-lab-wazuh-mitre-detection/screenshots/1st failed simulationfor 1 attack ( brute force).png)
+![Wazuh Dashboard](enterprise-soc-lab-wazuh-mitre-detection/screenshots
+/Wazuh dashboard in window VM.png)
 
 ### Both Agents Active
 
