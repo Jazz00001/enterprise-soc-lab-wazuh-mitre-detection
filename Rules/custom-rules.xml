@@ -1,0 +1,28 @@
+<!--
+Custom rules are planned improvements for this lab.
+These rules are included as examples and should only be marked complete
+after they are added to /var/ossec/etc/rules/local_rules.xml,
+Wazuh Manager is restarted, and alerts are captured with custom rule IDs.
+-->
+
+<group name="local,linux,reverse_shell,">
+  <rule id="100001" level="12">
+    <if_group>syslog</if_group>
+    <match>nc -e|nc -lvp|/bin/bash -i</match>
+    <description>Possible reverse shell - netcat or interactive shell pattern</description>
+    <mitre>
+      <id>T1059</id>
+    </mitre>
+  </rule>
+</group>
+
+<group name="local,windows,powershell,">
+  <rule id="100002" level="12">
+    <if_group>windows,powershell,</if_group>
+    <match>-EncodedCommand|-enc</match>
+    <description>PowerShell encoded command execution detected</description>
+    <mitre>
+      <id>T1059.001</id>
+    </mitre>
+  </rule>
+</group>
