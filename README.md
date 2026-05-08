@@ -209,7 +209,7 @@ This diagram shows the planned improved version of the lab, where the Ubuntu end
 
   ![screenshots/future-network-diagram.png](screenshots/future-network-diagram.png)
   
--[How to Improve the Current Mini SOC Lab.pdf](Reports/Improvement-Document)
+-[How to Improve the Current Mini SOC Lab.pdf](Reports/Improvement-doc.pdf)
 
 
 ## Resume Bullet
