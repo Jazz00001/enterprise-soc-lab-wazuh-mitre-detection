@@ -192,7 +192,7 @@ This project demonstrates end-to-end SOC operations in a lab environment: deploy
 - Enable Wazuh Active Response to automatically block brute-force source IPs.
 - Add Slack or email alerting for high-severity alerts.
 - Export raw JSON evidence for important alerts.
-- Create a cleaner network diagram using draw.io or Canva.
+- Add Wazuh Active Response integration to automatically block brute-force source IPs
   ![Lab Network Architecture](architecture/Network.png)
 
 ## Resume Bullet
