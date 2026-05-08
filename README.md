@@ -22,6 +22,7 @@ Mini enterprise SOC lab using Wazuh SIEM/XDR with Windows and Linux endpoints, M
 - [Key Skills Demonstrated](#key-skills-demonstrated)
 - [Lessons Learned](#lessons-learned)
 - [Future Improvements](#future-improvements)
+- [Planned Future Architecture](#Planned-Future-Architecture)
 - [Resume Bullet](#resume-bullet)
 
 ## Overview
@@ -200,7 +201,7 @@ This project demonstrates end-to-end SOC operations in a lab environment: deploy
 - Add Slack or email alerting for high-severity alerts.
 - Export raw JSON evidence for important alerts.
 
-- ### Planned Future Architecture
+  # Planned Future Architecture
 
 This diagram shows the planned improved version of the lab, where the Ubuntu endpoint will include auditd for deeper Linux monitoring.
   ![Lab Network Architecture](architecture/Network.png)
