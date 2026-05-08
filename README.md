@@ -96,7 +96,7 @@ The environment includes a Wazuh 4.7.5 all-in-one server, a Windows 10 endpoint 
 
 ## Detection Rules
 
-This lab used Wazuh built-in rules for most detections. Planned custom rule examples are included here:
+This lab relied on Wazuh built-in rules for detections. Custom rule examples demonstrating additional detection logic are provided in the Rules/ folder.
 
 - [Custom Rules XML](Rules/custom-rules.xml)
 
@@ -144,6 +144,7 @@ Confirmed built-in rules included:
 - Add Slack or email alerting for high-severity alerts.
 - Export raw JSON evidence for important alerts.
 - Create a cleaner network diagram using draw.io or Canva.
+  ![Lab Network Architecture](architecture/Network.png)
 
 ## Resume Bullet
 
