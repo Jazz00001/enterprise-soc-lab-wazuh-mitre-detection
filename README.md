@@ -34,6 +34,12 @@ The environment includes a Wazuh 4.7.5 all-in-one server, a Windows 10 endpoint 
 Lab Screenshot
 ![Lab](architecture/Lab.png)
 
+
+### Lab Network Diagram
+
+![Lab Network Diagram](architecture/Network.png)
+
+
 | Component | Tool / OS | Role | IP Address |
 |---|---|---|---|
 | SIEM/XDR | Wazuh 4.7.5 | Manager, Dashboard, Indexer, alerting, FIM | 192.168.56.102 |
@@ -193,7 +199,10 @@ This project demonstrates end-to-end SOC operations in a lab environment: deploy
 - Enable Wazuh Active Response to automatically block brute-force source IPs.
 - Add Slack or email alerting for high-severity alerts.
 - Export raw JSON evidence for important alerts.
-- Add Wazuh Active Response integration to automatically block brute-force source IPs
+
+- ### Planned Future Architecture
+
+This diagram shows the planned improved version of the lab, where the Ubuntu endpoint will include auditd for deeper Linux monitoring.
   ![Lab Network Architecture](architecture/Network.png)
 
 ## Resume Bullet
