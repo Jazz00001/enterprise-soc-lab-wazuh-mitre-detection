@@ -30,6 +30,8 @@ The environment includes a Wazuh 4.7.5 all-in-one server, a Windows 10 endpoint 
 
 ## Lab Architecture
 
+![Lab](architecture/Lab.png)
+
 | Component | Tool / OS | Role | IP Address |
 |---|---|---|---|
 | SIEM/XDR | Wazuh 4.7.5 | Manager, Dashboard, Indexer, alerting, FIM | 192.168.56.102 |
