@@ -204,8 +204,10 @@ This project demonstrates end-to-end SOC operations in a lab environment: deploy
   # Planned Future Architecture
 
 This diagram shows the planned improved version of the lab, where the Ubuntu endpoint will include auditd for deeper Linux monitoring.
+
+
   ![screenshots/future-network-diagram.png](screenshots/future-network-diagram.png)
--[Reports/How to Improve the Current Mini SOC Lab.pdf](Reports/How-to-Improve-the-Current-Mini-SOC-Lab.pdf)
+-[How to Improve the Current Mini SOC Lab.pdf](Reports/How-to-Improve-the-Current-Mini-SOC-Lab.pdf)
 
 
 ## Resume Bullet
