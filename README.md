@@ -12,6 +12,7 @@ Mini enterprise SOC lab using Wazuh SIEM/XDR with Windows and Linux endpoints, M
 ## Table of Contents
 - [Overview](#overview)
 - [Lab Architecture](#lab-architecture)
+- [How to Reproduce This Lab](#How-to-Reproduce-This-Lab)
 - [Attack Simulations](#attack-simulations)
 - [Detections and MITRE ATT&CK Mapping](#detections-and-mitre-attck-mapping)
 - [Incident Reports](#incident-reports)
