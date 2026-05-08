@@ -46,39 +46,39 @@ The environment includes a Wazuh 4.7.5 all-in-one server, a Windows 10 endpoint 
 
 ### Both Agents Active
 
-![Agents Connected](screenshots/agents-connected.png)
+![Agents Connected](screenshots/agents-connected)
 
 ### Brute Force Alert
 
-![Windows Brute Force Alert](screenshots/brute-force-alert.png)
+![Windows Brute Force Alert](screenshots/brute-force-alert)
 
 ### Suspicious PowerShell Execution
 
-![PowerShell Alert](screenshots/powershell-alert.png)
+![PowerShell Alert](screenshots/powershell-alert)
 
 ### New Local User Creation
 
-![New User Alert](screenshots/new-user-alert.png)
+![New User Alert](screenshots/new-user-alert)
 
 ### Linux SSH Brute Force
 
-![Linux SSH Brute Force](screenshots/linux-ssh-brute-force-alert.png)
+![Linux SSH Brute Force](screenshots/linux-ssh-brute-force-alert)
 
 ### File Integrity Monitoring
 
-![FIM Alert](screenshots/fim-alert.png)
+![FIM Alert](screenshots/fim-alert)
 
 ### Linux Sudo Privilege Escalation
 
-![Sudo Privilege Escalation](screenshots/sudo-privilege-escalation-alert.png)
+![Sudo Privilege Escalation](screenshots/sudo-privilege-escalation-alert)
 
 ### MITRE ATT&CK Dashboard
 
-![MITRE Dashboard](screenshots/mitre-dashboard.png)
+![MITRE Dashboard](screenshots/mitre-dashboard)
 
 ### Vulnerability Detection 
 
-![Vulnerability Scan](screenshots/vulnerability-scan-ubuntu.png)
+![Vulnerability Scan](screenshots/vulnerability-scan-ubuntu)
 
 
 ## Incident Reports
