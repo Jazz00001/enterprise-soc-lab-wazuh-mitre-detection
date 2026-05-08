@@ -40,6 +40,41 @@ Lab Screenshot
 | Endpoint 2 | Ubuntu 22.04.5 | Linux auth logs, SSH monitoring, sudo monitoring, FIM | 192.168.56.103 |
 | Virtualisation | VirtualBox | Host-only lab network | 192.168.56.0/24 |
 
+## How to Reproduce This Lab
+
+### Prerequisites
+- VirtualBox 7.x (free)
+- Minimum 8GB RAM host machine (16GB recommended)
+- ~80GB free disk space
+
+### Step 1 — Deploy Wazuh Server
+1. Download Ubuntu 22.04 Server ISO
+2. Create VM: 4GB RAM, 2 CPU, 50GB disk, Host-Only network adapter
+3. Run the Wazuh all-in-one installer:
+```bash
+curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh
+sudo bash wazuh-install.sh -a
+```
+4. Access dashboard at `https://192.168.56.102` (default user: admin)
+
+### Step 2 — Deploy Windows Agent
+1. Create Windows 10 VM: 2GB RAM, Host-Only adapter, static IP 192.168.56.101
+2. Download Wazuh Windows agent from the dashboard (Agents > Deploy new agent)
+3. Install Sysmon: download from Sysinternals, run:
+```powershell
+sysmon64.exe -accepteula -i sysmonconfig.xml
+```
+
+### Step 3 — Deploy Linux Agent
+1. Create Ubuntu 22.04 VM: 1GB RAM, Host-Only adapter, static IP 192.168.56.103
+2. Install Wazuh agent:
+```bash
+curl -sO https://packages.wazuh.com/4.7/wazuh-agent-install.sh
+sudo WAZUH_MANAGER='192.168.56.102' bash wazuh-agent-install.sh
+sudo systemctl enable wazuh-agent && sudo systemctl start wazuh-agent
+```
+
+
 ## Attack Simulations
 
 | # | Attack / Detection | Platform | Status |
@@ -50,6 +85,9 @@ Lab Screenshot
 | 4 | SSH brute force | Linux | Completed |
 | 5 | File Integrity Monitoring — `/etc/hosts` modified | Linux | Completed |
 | 6 | Privilege escalation using sudo | Linux | Completed |
+
+
+
 
 ## Detections and MITRE ATT&CK Mapping
 
