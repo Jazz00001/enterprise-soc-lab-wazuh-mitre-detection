@@ -30,6 +30,7 @@ The environment includes a Wazuh 4.7.5 all-in-one server, a Windows 10 endpoint 
 
 ## Lab Architecture
 
+Lab Screenshot
 ![Lab](architecture/Lab.png)
 
 | Component | Tool / OS | Role | IP Address |
@@ -64,7 +65,7 @@ The environment includes a Wazuh 4.7.5 all-in-one server, a Windows 10 endpoint 
 ## Screenshots
 ### Wazuh Dashboard
 
-![Wazuh Dashboard](screenshots/Wazuh-dashboard.png)
+![Wazuh Dashboard](screenshots/Wazuh-dashboard)
 
 ### Both Agents Active
 
@@ -136,19 +137,7 @@ Confirmed built-in rules included:
 
 ## Key Skills Demonstrated
 
-- Wazuh SIEM/XDR deployment and configuration
-- Windows and Linux agent setup
-- Sysmon deployment and Windows event collection
-- Linux authentication log monitoring
-- SSH brute-force detection
-- PowerShell suspicious execution detection
-- Windows account activity monitoring
-- File Integrity Monitoring
-- Linux sudo privilege escalation detection
-- MITRE ATT&CK mapping
-- Vulnerability detection and CVE review
-- SOC alert triage and incident report writing
-- GitHub project documentation
+This project demonstrates end-to-end SOC operations in a lab environment: deploying Wazuh SIEM/XDR, configuring Windows (Sysmon) and Linux agents, simulating 6 attack scenarios, triaging alerts, mapping detections to MITRE ATT&CK, and writing formal incident reports — the same workflow a junior SOC analyst performs daily.
 
 ## Lessons Learned
 
