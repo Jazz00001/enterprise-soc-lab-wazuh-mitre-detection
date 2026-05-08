@@ -1,7 +1,8 @@
 # enterprise-soc-lab-wazuh-mitre-detection
 Mini enterprise SOC lab using Wazuh SIEM/XDR with Windows and Linux endpoints, MITRE ATT&amp;CK mapping, vulnerability detection, and incident reports.
+
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=flat-square)
-![Platform](https://img.shields.io/badge/Platform-Wazuh%204.7.5-blue?style=flat-square&logo=linux)
+![Platform](https://img.shields.io/badge/Platform-Wazuh-SIEM/XDR%204.7.5-blue?style=flat-square&logo=linux)
 ![OS](https://img.shields.io/badge/Endpoints-Windows%2010%20%7C%20Ubuntu%2022.04-orange?style=flat-square)
 ![MITRE](https://img.shields.io/badge/Framework-MITRE%20ATT%26CK-red?style=flat-square)
 ![Reports](https://img.shields.io/badge/Incident%20Reports-6-purple?style=flat-square)
@@ -19,6 +20,8 @@ Mini enterprise SOC lab using Wazuh SIEM/XDR with Windows and Linux endpoints, M
 - [Screenshots](#screenshots)
 - [Key Skills Demonstrated](#key-skills-demonstrated)
 - [Lessons Learned](#lessons-learned)
+- [Future Improvements](#future-improvements)
+- [Resume Bullet](#resume-bullet)
 
 ## Overview
 This project is a mini enterprise SOC lab built using Wazuh SIEM/XDR. The lab simulates, detects, and investigates real-world attack techniques across Windows and Linux endpoints.
