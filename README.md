@@ -1,78 +1,95 @@
 <div align="center">
 
-<!-- Animated Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:00d4ff&height=200&section=header&text=Enterprise%20SOC%20Lab&fontSize=48&fontColor=00d4ff&fontAlignY=38&desc=Wazuh%20SIEM%2FXDR%20%E2%80%A2%20MITRE%20ATT%26CK%20%E2%80%A2%20Threat%20Detection&descAlignY=60&descSize=16&descColor=a0aec0&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:060D14,30:0A1628,60:0D2137,100:00B4D8&height=220&section=header&text=Enterprise%20SOC%20Lab&fontSize=52&fontColor=ffffff&fontAlignY=40&desc=Wazuh%20SIEM%2FXDR%20%E2%80%A2%20MITRE%20ATT%26CK%20%E2%80%A2%20Threat%20Detection%20%E2%80%A2%20Incident%20Response&descAlignY=62&descSize=15&descColor=90CAF9&animation=fadeIn" width="100%"/>
 
-<!-- Status Badges -->
-<p>
-  <img src="https://img.shields.io/badge/Status-Active-00d4ff?style=for-the-badge&logo=statuspage&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Wazuh-4.7.5-005571?style=for-the-badge&logo=elastic&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MITRE%20ATT%26CK-Mapped-e63946?style=for-the-badge&logo=target&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Detections-6%20Scenarios-2d9a27?style=for-the-badge&logo=shield&logoColor=white"/>
-</p>
+<br/>
 
-<p>
-  <img src="https://img.shields.io/badge/Platform-VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Windows%2010-Sysmon-0078d4?style=for-the-badge&logo=windows&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Ubuntu-22.04.5-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Reports-6%20IRs%20%2B%201%20Full%20Triage-9b5de5?style=for-the-badge&logo=read-the-docs&logoColor=white"/>
-</p>
+<!-- Live status dot + title line -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=15&duration=2800&pause=1000&color=00B4D8&center=true&vCenter=true&width=750&lines=%E2%97%8F+ACTIVE+LAB+%E2%80%94+Wazuh+4.7.5+%7C+2+Agents+Online+%7C+6+Detections+Live;Simulating+Real-World+Attacks+%E2%86%92+Detecting+%E2%86%92+Triaging+%E2%86%92+Reporting;SOC+Analyst+Workflow%3A+Log+Collection+%7C+Alert+Triage+%7C+MITRE+Mapping;Built+end-to-end+from+scratch+%E2%80%94+deployment+to+incident+reports" alt="Typing SVG"/>
 
-<!-- Typing animation -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=800&color=00D4FF&center=true&vCenter=true&multiline=false&width=700&lines=Simulating+Real-World+Attacks+%E2%86%92+Detecting+%E2%86%92+Investigating;SOC+Operations%3A+Triage+%7C+MITRE+Mapping+%7C+Incident+Reports;Built+for+Junior+SOC+Analyst+Portfolio+%F0%9F%9B%A1%EF%B8%8F" alt="Typing SVG" /></a>
+<br/><br/>
 
-</div>
+<!-- Primary badges -->
+[![Wazuh](https://img.shields.io/badge/Wazuh-4.7.5-005571?style=for-the-badge&logo=elastic&logoColor=white)](https://wazuh.com)
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-Covered-CC2200?style=for-the-badge&logo=target&logoColor=white)](https://attack.mitre.org)
+[![Detections](https://img.shields.io/badge/Detections-6%20Scenarios-1a7a4a?style=for-the-badge&logo=checkmarx&logoColor=white)](./Incident-Reports/)
+[![Reports](https://img.shields.io/badge/IR%20Reports-6%20%2B%201%20Full%20Triage-6A0DAD?style=for-the-badge&logo=googledocs&logoColor=white)](./Incident-Reports/)
 
----
+<!-- Secondary badges -->
+[![Platform](https://img.shields.io/badge/VirtualBox-7.x-183A61?style=for-the-badge&logo=virtualbox&logoColor=white)](https://www.virtualbox.org)
+[![Windows](https://img.shields.io/badge/Windows%2010-Sysmon-0078D4?style=for-the-badge&logo=windows&logoColor=white)](#)
+[![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04.5%20LTS-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)](#)
+[![Status](https://img.shields.io/badge/Status-Active-00B4D8?style=for-the-badge&logo=statuspage&logoColor=white)](#)
 
-## 📋 Table of Contents
+<br/>
 
-<div align="center">
-
-| Section | Description |
-|:-------:|:-----------|
-| [🧭 Overview](#-overview) | Project summary and goals |
-| [🏗️ Architecture](#%EF%B8%8F-lab-architecture) | Network layout and components |
-| [⚙️ Setup Guide](#%EF%B8%8F-how-to-reproduce-this-lab) | Full reproduction steps |
-| [⚔️ Attack Simulations](#%EF%B8%8F-attack-simulations) | All 6 simulated attack scenarios |
-| [🎯 MITRE Detections](#-detections--mitre-attck-mapping) | Detection table with ATT&CK mapping |
-| [📄 Incident Reports](#-incident-reports) | Formal IR documentation |
-| [📊 Screenshots](#-screenshots) | Dashboard and alert screenshots |
-| [🧠 Skills & Lessons](#-key-skills-demonstrated) | SOC skills demonstrated |
-| [🚀 Future Roadmap](#-future-improvements) | Planned improvements |
+> **A complete, end-to-end mini enterprise Security Operations Centre — built from scratch using 100% open-source tools.**
+> Mirrors the real daily workflow of a Junior SOC Analyst: agent deployment, attack simulation, alert triage, MITRE ATT&CK mapping, and formal incident documentation.
 
 </div>
 
 ---
 
-## 🧭 Overview
+## 🗂 Table of Contents
 
-> **A fully functional mini enterprise Security Operations Centre (SOC) lab**, built from scratch using open-source tools. This project mirrors the real-world daily workflow of a **Junior SOC Analyst** — from agent deployment and attack simulation, through alert triage, MITRE ATT&CK mapping, and formal incident report writing.
+<details open>
+<summary><b>Click to expand / collapse</b></summary>
+
+<br/>
+
+```
+📌 Overview ·········· What this lab does and why
+🏗 Architecture ······ Network layout, components, IPs
+⚙️  Setup Guide ······ Step-by-step reproduction guide
+⚔️  Simulations ······ 6 attack scenarios executed
+🎯 Detections ········ MITRE ATT&CK full mapping table
+📄 Incident Reports ·· 6 IRs + 1 full SOC triage report
+🔧 Detection Rules ··· Built-in + custom Wazuh rules
+📊 Screenshots ······· Dashboard, alerts, and FIM visuals
+🧠 Skills ············ Analyst capabilities demonstrated
+📚 Lessons Learned ··· Key takeaways from building this lab
+🚀 Roadmap ·········· Future improvements and architecture
+💼 Resume Bullet ····· Copy-paste ready bullet point
+```
+
+</details>
+
+---
+
+## 📌 Overview
 
 <table>
 <tr>
-<td width="50%">
+<td width="55%" valign="top">
 
-### 🎯 What This Lab Does
-- ✅ Collects security logs from **Windows & Linux** endpoints
-- ✅ Detects **6 real attack techniques** in near real-time
-- ✅ Maps every detection to the **MITRE ATT&CK framework**
-- ✅ Monitors file changes via **File Integrity Monitoring (FIM)**
-- ✅ Scans for known **CVE vulnerabilities**
-- ✅ Produces **formal Incident Response reports**
+### What this lab does
+
+This project is a **fully operational mini enterprise SOC lab** using Wazuh SIEM/XDR as its detection engine.
+
+The lab **simulates, detects, investigates, and documents** 6 real-world attack techniques across Windows and Linux endpoints — mapping every detection to the [MITRE ATT&CK framework](https://attack.mitre.org) and writing formal Incident Response reports for each one.
+
+**Every component was built from scratch:**
+- Deployed Wazuh all-in-one on a dedicated Ubuntu server VM
+- Configured Sysmon on a Windows 10 endpoint for deep process visibility
+- Enrolled an Ubuntu 22.04 endpoint for Linux log monitoring and FIM
+- Manually simulated each attack, triaged the resulting alerts, and wrote structured incident reports
 
 </td>
-<td width="50%">
+<td width="45%" valign="top">
 
-### 🛠️ Core Stack
+### Core stack
 
-| Component | Tool |
-|-----------|------|
+| Layer | Component |
+|-------|-----------|
 | **SIEM / XDR** | Wazuh 4.7.5 |
-| **Process Visibility** | Sysmon (Sysinternals) |
-| **Endpoints** | Windows 10, Ubuntu 22.04.5 |
+| **Dashboard** | Wazuh / OpenSearch |
+| **Process Telemetry** | Sysmon (Sysinternals) |
+| **Windows Endpoint** | Windows 10 Pro |
+| **Linux Endpoint** | Ubuntu 22.04.5 LTS |
 | **Virtualisation** | VirtualBox 7.x |
-| **Framework** | MITRE ATT&CK |
+| **Detection Framework** | MITRE ATT&CK |
+| **FIM** | Wazuh Syscheck |
+| **Vuln Scanning** | Wazuh Vuln Detector |
 
 </td>
 </tr>
@@ -80,99 +97,122 @@
 
 ---
 
-## 🏗️ Lab Architecture
+## 🏗 Lab Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                  HOST-ONLY NETWORK  192.168.56.0/24             │
-│                                                                  │
-│  ┌───────────────────┐        ┌──────────────────────────────┐  │
-│  │   WAZUH SERVER    │◄──────►│      WINDOWS 10 ENDPOINT     │  │
-│  │   192.168.56.102  │  Agent │       192.168.56.101          │  │
-│  │                   │        │    + Sysmon (process logs)    │  │
-│  │  • Manager        │        └──────────────────────────────┘  │
-│  │  • Dashboard      │                                          │
-│  │  • Indexer        │        ┌──────────────────────────────┐  │
-│  │  • Alerting       │◄──────►│     UBUNTU 22.04 ENDPOINT    │  │
-│  │  • FIM/Syscheck   │  Agent │       192.168.56.103          │  │
-│  │  • Vuln Detector  │        │    + auth.log + FIM active    │  │
-│  └───────────────────┘        └──────────────────────────────┘  │
-└─────────────────────────────────────────────────────────────────┘
+╔══════════════════════════════════════════════════════════════════════╗
+║               HOST-ONLY NETWORK  —  192.168.56.0/24                 ║
+║                                                                      ║
+║  ┌──────────────────────┐     ┌────────────────────────────────────┐ ║
+║  │    WAZUH SERVER       │◄───►│         WINDOWS 10 ENDPOINT        │ ║
+║  │    192.168.56.102     │     │          192.168.56.101            │ ║
+║  │                       │     │   Sysmon · PowerShell logs         │ ║
+║  │  ● Manager            │     │   Windows Security Events          │ ║
+║  │  ● Dashboard          │     └────────────────────────────────────┘ ║
+║  │  ● Indexer            │                                            ║
+║  │  ● Alerting           │     ┌────────────────────────────────────┐ ║
+║  │  ● FIM / Syscheck     │◄───►│         UBUNTU 22.04 ENDPOINT      │ ║
+║  │  ● Vuln Detector      │     │          192.168.56.103            │ ║
+║  └──────────────────────┘     │   auth.log · FIM · sudo logs       │ ║
+║                                └────────────────────────────────────┘ ║
+╚══════════════════════════════════════════════════════════════════════╝
 ```
 
-| Component | Tool / OS | Role | IP Address |
-|-----------|-----------|------|------------|
-| 🖥️ **SIEM/XDR** | Wazuh 4.7.5 | Manager · Dashboard · Indexer · Alerting · FIM | `192.168.56.102` |
-| 💻 **Endpoint 1** | Windows 10 + Sysmon | Windows event logs · Process monitoring · PowerShell detection | `192.168.56.101` |
-| 🐧 **Endpoint 2** | Ubuntu 22.04.5 | Linux auth logs · SSH monitoring · Sudo monitoring · FIM | `192.168.56.103` |
-| ☁️ **Virtualisation** | VirtualBox 7.x | Host-only isolated lab network | `192.168.56.0/24` |
+<div align="center">
 
-> 📸 *See [Screenshots](#-screenshots) section for live dashboard and alert images.*
+| Component | Tool / OS | Role | IP |
+|:---------:|-----------|------|----|
+| 🖥 **SIEM / XDR** | Wazuh 4.7.5 | Manager · Dashboard · Indexer · Alerting · FIM | `192.168.56.102` |
+| 💻 **Endpoint 1** | Windows 10 + Sysmon | Event logs · Process telemetry · PowerShell detection | `192.168.56.101` |
+| 🐧 **Endpoint 2** | Ubuntu 22.04.5 | Auth logs · SSH monitoring · Sudo monitoring · FIM | `192.168.56.103` |
+| 📦 **Hypervisor** | VirtualBox 7.x | Host-only isolated lab network | `192.168.56.0/24` |
+
+</div>
 
 ---
 
 ## ⚙️ How to Reproduce This Lab
 
 <details>
-<summary><b>📋 Prerequisites</b></summary>
-<br>
+<summary><b>📋 System requirements before you start</b></summary>
 
-| Requirement | Minimum | Recommended |
-|-------------|---------|-------------|
-| **RAM** | 8 GB | 16 GB |
-| **Disk** | 80 GB free | 120 GB free |
-| **Software** | VirtualBox 7.x | VirtualBox 7.x |
-| **OS** | Any host OS | Windows / Linux |
+<br/>
+
+| Resource | Minimum | Recommended |
+|----------|:-------:|:-----------:|
+| RAM | 8 GB | 16 GB |
+| Free disk | 80 GB | 120 GB |
+| CPU cores | 4 | 6+ |
+| Hypervisor | VirtualBox 7.x | VirtualBox 7.x |
+| Host OS | Windows / Linux / macOS | Any |
 
 </details>
 
 ---
 
-### Step 1 — Deploy Wazuh Server (SIEM)
+### 🔷 Step 1 — Deploy Wazuh Server
+
+```
+VM spec: Ubuntu 22.04 · 4 GB RAM · 2 vCPU · 50 GB disk · Host-Only adapter
+Static IP: 192.168.56.102
+```
 
 ```bash
-# 1. Create Ubuntu 22.04 VM: 4GB RAM | 2 vCPU | 50GB disk | Host-Only adapter
-
-# 2. Run the Wazuh all-in-one installer
+# Download and run the Wazuh all-in-one installer
 curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh
 sudo bash wazuh-install.sh -a
 
-# 3. Access the dashboard
-# URL:  https://192.168.56.102
-# User: admin
-# Pass: (shown at end of install output — save it!)
+# Installer deploys: Manager + Dashboard + Indexer in one pass (~10 min)
+# Save the admin password printed at the end of installation
+
+# Access dashboard
+# URL  → https://192.168.56.102
+# User → admin
+# Pass → (from install output)
 ```
 
-> 💡 **Tip:** The installer deploys the Wazuh Manager, Dashboard, and Indexer in a single step. Installation takes ~10 minutes.
+> **Tip:** The `-a` flag deploys all components automatically. Make a snapshot of your VM immediately after installation succeeds — it saves a lot of time if you need to reset.
 
 ---
 
-### Step 2 — Deploy Windows 10 Agent + Sysmon
+### 🔷 Step 2 — Deploy Windows 10 Agent + Sysmon
+
+```
+VM spec: Windows 10 · 2 GB RAM · Host-Only adapter
+Static IP: 192.168.56.101
+```
 
 ```powershell
-# VM Spec: 2GB RAM | Host-Only adapter | Static IP: 192.168.56.101
+# 1. In Wazuh Dashboard → Agents → Deploy new agent → Windows
+#    Set manager IP: 192.168.56.102
+#    Download the generated MSI and run it as Administrator
 
-# Install Wazuh agent:
-# Dashboard → Agents → Deploy new agent → Windows → download & run MSI
-# Set manager IP: 192.168.56.102 during install
-
-# Install Sysmon for deep process visibility:
+# 2. Install Sysmon for deep process and PowerShell visibility
+#    Download: https://docs.microsoft.com/sysinternals/downloads/sysmon
 sysmon64.exe -accepteula -i sysmonconfig.xml
 
-# Verify agent is running:
+# 3. Verify the Wazuh agent service is running
 Get-Service WazuhSvc
+
+# Expected output:
+# Status   Name      DisplayName
+# -------  ----      -----------
+# Running  WazuhSvc  Wazuh
 ```
 
-> 💡 **Tip:** Use the [SwiftOnSecurity Sysmon config](https://github.com/SwiftOnSecurity/sysmon-config) for production-grade process monitoring rules.
+> **Tip:** Use the [SwiftOnSecurity sysmon-config](https://github.com/SwiftOnSecurity/sysmon-config) for a production-quality Sysmon ruleset that detects most ATT&CK techniques out of the box.
 
 ---
 
-### Step 3 — Deploy Ubuntu 22.04 Linux Agent
+### 🔷 Step 3 — Deploy Ubuntu 22.04 Linux Agent
+
+```
+VM spec: Ubuntu 22.04 · 1 GB RAM · Host-Only adapter
+Static IP: 192.168.56.103
+```
 
 ```bash
-# VM Spec: 1GB RAM | Host-Only adapter | Static IP: 192.168.56.103
-
-# Download and install the Wazuh agent
+# Download and install the Wazuh agent (manager IP injected at install time)
 curl -sO https://packages.wazuh.com/4.7/wazuh-agent-install.sh
 sudo WAZUH_MANAGER='192.168.56.102' bash wazuh-agent-install.sh
 
@@ -180,26 +220,30 @@ sudo WAZUH_MANAGER='192.168.56.102' bash wazuh-agent-install.sh
 sudo systemctl enable wazuh-agent
 sudo systemctl start wazuh-agent
 
-# Verify agent status
+# Verify the agent is running and connected
 sudo systemctl status wazuh-agent
 ```
 
-> ✅ After completing all 3 steps, both agents should appear as **Active** in the Wazuh Dashboard under **Agents**.
+> ✅ Once all three steps are complete, both agents will appear as **Active** in the Wazuh Dashboard under **Agents → Overview**. You are ready to begin attack simulations.
 
 ---
 
 ## ⚔️ Attack Simulations
 
-All 6 attack scenarios were manually simulated to generate real alerts in the Wazuh dashboard.
+All 6 attack scenarios were **manually executed** against the lab endpoints to generate authentic, real alerts in the Wazuh dashboard. No synthetic log injection was used.
 
-| # | Attack / Detection | Platform | Tactic | Status |
-|:-:|-------------------|:--------:|--------|:------:|
-| 1 | 🔑 Brute force failed logins | Windows | Credential Access | ✅ Completed |
-| 2 | 💻 Suspicious PowerShell execution | Windows | Execution / Defense Evasion | ✅ Completed |
-| 3 | 👤 New local user creation | Windows | Persistence | ✅ Completed |
-| 4 | 🔐 SSH brute force | Linux | Credential Access | ✅ Completed |
-| 5 | 📝 File Integrity — `/etc/hosts` modified | Linux | Impact | ✅ Completed |
-| 6 | 🔓 Privilege escalation via sudo | Linux | Privilege Escalation | ✅ Completed |
+<div align="center">
+
+| # | Scenario | Platform | Tactic | Severity | Status |
+|:-:|---------|:--------:|--------|:--------:|:------:|
+| 01 | 🔑 Brute force failed logins | Windows | Credential Access | 🔴 High | ✅ Done |
+| 02 | 💻 Suspicious PowerShell execution | Windows | Execution · Defense Evasion | 🔴 High | ✅ Done |
+| 03 | 👤 New local user creation | Windows | Persistence | 🟡 Medium | ✅ Done |
+| 04 | 🔐 SSH brute force | Linux | Credential Access | 🔴 High | ✅ Done |
+| 05 | 📝 FIM — `/etc/hosts` modified | Linux | Impact | 🟡 Medium | ✅ Done |
+| 06 | 🔓 Privilege escalation via `sudo` | Linux | Privilege Escalation | 🔴 High | ✅ Done |
+
+</div>
 
 ---
 
@@ -208,14 +252,14 @@ All 6 attack scenarios were manually simulated to generate real alerts in the Wa
 <div align="center">
 
 | Detection | Log Source | MITRE ID | Technique | Tactic | Severity |
-|-----------|-----------|:--------:|-----------|--------|:--------:|
+|-----------|:----------:|:--------:|-----------|:------:|:--------:|
 | Windows failed logins | Windows Security Log | [T1110.001](https://attack.mitre.org/techniques/T1110/001/) | Brute Force: Password Guessing | Credential Access | 🔴 High |
-| Suspicious PowerShell | Sysmon / WinEvent | [T1059.001](https://attack.mitre.org/techniques/T1059/001/) | Command & Scripting: PowerShell | Execution / Defense Evasion | 🔴 High |
-| New local user created | Windows Security Log | [T1136.001](https://attack.mitre.org/techniques/T1136/001/) | Create Account: Local Account | Persistence | 🟡 Medium |
+| Suspicious PowerShell | Sysmon · WinEvent | [T1059.001](https://attack.mitre.org/techniques/T1059/001/) | Command & Scripting: PowerShell | Execution / Defense Evasion | 🔴 High |
+| New local user | Windows Security Log | [T1136.001](https://attack.mitre.org/techniques/T1136/001/) | Create Account: Local Account | Persistence | 🟡 Medium |
 | SSH brute force | `/var/log/auth.log` | [T1110.001](https://attack.mitre.org/techniques/T1110/001/) | Brute Force: Password Guessing | Credential Access | 🔴 High |
 | `/etc/hosts` modified | Wazuh FIM / Syscheck | [T1565.001](https://attack.mitre.org/techniques/T1565/001/) | Stored Data Manipulation | Impact | 🟡 Medium |
-| Sudo privilege escalation | `/var/log/auth.log` | [T1548.003](https://attack.mitre.org/techniques/T1548/003/) | Sudo and Sudo Caching | Privilege Escalation | 🔴 High |
-| Vulnerability detection | Wazuh Vuln Detector | CVE Exposure | CVE / Vulnerability Management | Risk Management | 🔴 High |
+| Sudo privilege escalation | `/var/log/auth.log` | [T1548.003](https://attack.mitre.org/techniques/T1548/003/) | Abuse Elevation: Sudo Caching | Privilege Escalation | 🔴 High |
+| CVE exposure | Wazuh Vuln Detector | CVE Scan | Vulnerability Management | Risk Management | 🔴 High |
 
 </div>
 
@@ -223,64 +267,91 @@ All 6 attack scenarios were manually simulated to generate real alerts in the Wa
 
 ## 📄 Incident Reports
 
-Each detection produced a formal, structured Incident Response document — mirroring real SOC analyst deliverables.
+Every detection was documented as a **formal Incident Response report** — the same deliverable expected from a junior analyst in a real SOC environment.
 
 <div align="center">
 
-| Report | Title | Severity |
-|:------:|-------|:--------:|
-| [IR-001](./Incident-Reports/IR-001-Windows-Brute-Force.pdf) | Windows Brute Force Failed Logins | 🔴 High |
-| [IR-002](./Incident-Reports/IR-002-PowerShell-Execution.pdf) | Suspicious PowerShell Execution | 🔴 High |
-| [IR-003](./Incident-Reports/IR-003-New-Local-User.pdf) | New Local User Creation — Windows | 🟡 Medium |
-| [IR-004](./Incident-Reports/IR-004-SSH-Brute-Force.pdf) | Linux SSH Brute Force | 🔴 High |
-| [IR-005](./Incident-Reports/IR-005-FIM-Hosts-Modified.pdf) | File Integrity Monitoring — Hosts File Modified | 🟡 Medium |
-| [IR-006](./Incident-Reports/IR-006-Sudo-Escalation.pdf) | Linux Sudo Privilege Escalation | 🔴 High |
-| [📋 Full Triage](./Full-SOC-Triage-Report.pdf) | **Complete SOC Triage Report** | All |
+| ID | Title | Severity | Link |
+|:--:|-------|:--------:|:----:|
+| IR-001 | Windows Brute Force Failed Logins | 🔴 High | [View →](./Incident-Reports/IR-001-Windows-Brute-Force.pdf) |
+| IR-002 | Suspicious PowerShell Execution | 🔴 High | [View →](./Incident-Reports/IR-002-PowerShell-Execution.pdf) |
+| IR-003 | New Local User Creation — Windows | 🟡 Medium | [View →](./Incident-Reports/IR-003-New-Local-User.pdf) |
+| IR-004 | Linux SSH Brute Force | 🔴 High | [View →](./Incident-Reports/IR-004-SSH-Brute-Force.pdf) |
+| IR-005 | File Integrity — `/etc/hosts` Modified | 🟡 Medium | [View →](./Incident-Reports/IR-005-FIM-Hosts-Modified.pdf) |
+| IR-006 | Linux Sudo Privilege Escalation | 🔴 High | [View →](./Incident-Reports/IR-006-Sudo-Escalation.pdf) |
+| **Triage** | **Full SOC Triage Report — All Incidents** | All | [**View →**](./Full-SOC-Triage-Report.pdf) |
 
 </div>
 
-> Each report follows the standard IR structure: **Summary → Timeline → Evidence → Impact Analysis → Containment → Recommendations.**
+> Each report follows the standard IR structure: **Executive Summary → Detection Timeline → Evidence → Impact Assessment → Containment Steps → Recommendations**
 
 ---
 
 ## 🔧 Detection Rules
 
-This lab relies on **Wazuh built-in rules** for all detections, with custom rule examples provided in the [`Rules/`](./Rules/) directory.
+The lab uses **Wazuh built-in rules** for all production detections, with additional custom rule examples in [`Rules/`](./Rules/).
 
 <details>
-<summary><b>📜 View Active Built-in Rule IDs</b></summary>
+<summary><b>📋 Active built-in rule reference</b></summary>
 
-<br>
+<br/>
 
 | Rule ID | Description | Platform |
 |:-------:|-------------|:--------:|
 | `92057` | PowerShell encoded command detected | 🪟 Windows |
-| `92027` | PowerShell process spawned a PowerShell child instance | 🪟 Windows |
-| `5710` | SSH login attempt using non-existent user | 🐧 Linux |
-| `2502` | User failed password authentication (multiple times) | 🐧 Linux |
-| `5402` | Successful `sudo` escalation to ROOT | 🐧 Linux |
+| `92027` | PowerShell spawned a child PowerShell process | 🪟 Windows |
+| `5710` | SSH login attempted with non-existent user | 🐧 Linux |
+| `2502` | User failed password authentication (multiple) | 🐧 Linux |
+| `5402` | Successful `sudo` to ROOT executed | 🐧 Linux |
 | `5404` | Three consecutive failed `sudo` attempts | 🐧 Linux |
-| `550` | FIM: Integrity checksum changed on monitored file | 🐧 Linux / 🪟 Windows |
+| `550` | FIM: Integrity checksum changed on monitored file | 🐧🪟 Both |
 
 </details>
 
 <details>
-<summary><b>📝 Custom Rule Example (XML)</b></summary>
+<summary><b>🛠 Custom rule example — <code>Rules/custom_rules.xml</code></b></summary>
+
+<br/>
 
 ```xml
-<!-- Custom rule: Detect new local user creation via net user command -->
-<group name="custom_windows,">
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ============================================================
+     Custom Wazuh Rules — Enterprise SOC Lab
+     File: /var/ossec/etc/rules/local_rules.xml
+     ============================================================ -->
+
+<group name="custom_lab,">
+
+  <!-- Rule 100001: New local Windows user created (event 4720) -->
   <rule id="100001" level="10">
     <if_sid>4720</if_sid>
-    <description>Custom: New local Windows account created</description>
+    <description>New local Windows account created — possible persistence (T1136.001)</description>
     <mitre>
       <id>T1136.001</id>
     </mitre>
   </rule>
+
+  <!-- Rule 100002: Multiple failed sudo attempts — possible escalation attempt -->
+  <rule id="100002" level="10" frequency="3" timeframe="60">
+    <if_matched_sid>5404</if_matched_sid>
+    <description>Three+ failed sudo attempts in 60 seconds — possible privilege escalation (T1548.003)</description>
+    <mitre>
+      <id>T1548.003</id>
+    </mitre>
+  </rule>
+
+  <!-- Rule 100003: PowerShell with encoded command — likely obfuscation -->
+  <rule id="100003" level="12">
+    <if_sid>92057</if_sid>
+    <description>Encoded PowerShell command detected — possible defense evasion (T1059.001)</description>
+    <mitre>
+      <id>T1059.001</id>
+    </mitre>
+  </rule>
+
 </group>
 ```
-
-> See [`Rules/custom_rules.xml`](./Rules/custom_rules.xml) for the full custom ruleset.
 
 </details>
 
@@ -289,38 +360,56 @@ This lab relies on **Wazuh built-in rules** for all detections, with custom rule
 ## 📊 Screenshots
 
 <details>
-<summary><b>🖥️ View All Dashboard & Alert Screenshots</b></summary>
+<summary><b>🖼 Expand to view all dashboard and alert screenshots</b></summary>
 
-<br>
+<br/>
 
-**Wazuh Main Dashboard**
+### Wazuh Main Dashboard
 ![Wazuh Dashboard](./screenshots/wazuh-dashboard.png)
 
-**Both Agents Active**
+---
+
+### Both Agents Active and Connected
 ![Agents Connected](./screenshots/agents-connected.png)
 
-**Windows Brute Force Alert**
+---
+
+### Windows Brute Force Alert — IR-001
 ![Brute Force Alert](./screenshots/windows-brute-force.png)
 
-**Suspicious PowerShell Execution**
+---
+
+### Suspicious PowerShell Execution — IR-002
 ![PowerShell Alert](./screenshots/powershell-alert.png)
 
-**New Local User Creation**
+---
+
+### New Local User Creation — IR-003
 ![New User Alert](./screenshots/new-user-alert.png)
 
-**Linux SSH Brute Force**
+---
+
+### Linux SSH Brute Force — IR-004
 ![SSH Brute Force](./screenshots/linux-ssh-brute-force.png)
 
-**File Integrity Monitoring Alert**
+---
+
+### File Integrity Monitoring Alert — IR-005
 ![FIM Alert](./screenshots/fim-alert.png)
 
-**Linux Sudo Privilege Escalation**
+---
+
+### Linux Sudo Privilege Escalation — IR-006
 ![Sudo Escalation](./screenshots/sudo-privilege-escalation.png)
 
-**MITRE ATT&CK Dashboard**
+---
+
+### MITRE ATT&CK Dashboard
 ![MITRE Dashboard](./screenshots/mitre-dashboard.png)
 
-**Vulnerability Detection**
+---
+
+### Vulnerability Detection Scan
 ![Vulnerability Scan](./screenshots/vulnerability-detection.png)
 
 </details>
@@ -332,20 +421,21 @@ This lab relies on **Wazuh built-in rules** for all detections, with custom rule
 <div align="center">
 
 ```
-╔═══════════════════════════════════════════════════════════════════╗
-║              SOC ANALYST SKILL MATRIX COVERED IN THIS LAB        ║
-╠══════════════════════════╦════════════════════════════════════════╣
-║  SIEM Deployment         ║  Wazuh all-in-one install + config    ║
-║  Agent Management        ║  Windows + Linux agent deployment      ║
-║  Log Collection          ║  Multi-endpoint telemetry ingestion    ║
-║  Sysmon Tuning           ║  Process creation + PS detection       ║
-║  Alert Triage            ║  Severity assessment + investigation   ║
-║  MITRE ATT&CK Mapping    ║  Tactic/Technique identification       ║
-║  File Integrity Mon.     ║  FIM / Syscheck configuration          ║
-║  Vulnerability Mgmt      ║  CVE scanning and exposure reporting   ║
-║  Incident Reporting      ║  Formal IR doc creation (6 reports)   ║
-║  Full Triage Report      ║  End-to-end SOC triage documentation  ║
-╚══════════════════════════╩════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════════╗
+║                  SOC ANALYST SKILL MATRIX — THIS LAB                ║
+╠═══════════════════════════╦══════════════════════════════════════════╣
+║  SIEM Deployment          ║  Wazuh all-in-one install and config    ║
+║  Agent Enrollment         ║  Windows + Linux agents deployed         ║
+║  Multi-source Log Ingest  ║  Unified telemetry from 2 platforms      ║
+║  Sysmon Configuration     ║  Process creation + PowerShell logging  ║
+║  Alert Triage             ║  Severity assessment + prioritisation    ║
+║  Root Cause Analysis      ║  Tracing each alert back to its origin  ║
+║  MITRE ATT&CK Mapping     ║  6 techniques across 4 tactics mapped   ║
+║  File Integrity Monitor   ║  FIM + Syscheck on sensitive paths      ║
+║  Vulnerability Management ║  CVE scanning and exposure reporting     ║
+║  Incident Documentation   ║  6 formal IRs + full triage report      ║
+║  Custom Detection Rules   ║  Wazuh XML rule authoring                ║
+╚═══════════════════════════╩══════════════════════════════════════════╝
 ```
 
 </div>
@@ -354,62 +444,75 @@ This lab relies on **Wazuh built-in rules** for all detections, with custom rule
 
 ## 📚 Lessons Learned
 
-- 🔍 **SIEM fundamentals** — how a SIEM aggregates logs from multiple endpoints and transforms raw events into actionable security alerts
-- 🪟 **Windows visibility** — how Sysmon dramatically improves process creation and PowerShell activity visibility beyond default Windows logs
-- 🐧 **Linux monitoring** — how `/var/log/auth.log` exposes SSH brute-force patterns and sudo escalation behaviour in detail
-- 🎯 **MITRE ATT&CK** — how to use the framework to categorise attacker behaviour by Tactic, Technique, and Sub-technique
-- 📝 **Documentation matters** — a SOC analyst's value is not just in detecting threats, but in clearly communicating *what happened*, *why it matters*, and *how to respond*
+- **SIEM log pipeline** — how a SIEM ingests raw events from multiple endpoints and enriches them into structured, actionable alerts in near real-time
+- **Sysmon value** — default Windows event logs miss the detail that makes PowerShell and process-spawn attacks visible; Sysmon is non-negotiable for Windows endpoints
+- **Linux auth log patterns** — `/var/log/auth.log` tells a complete story about brute-force SSH attempts and privilege escalation; learning to read it manually first made triage faster
+- **MITRE ATT&CK as a language** — using Tactic → Technique → Sub-technique as a shared vocabulary makes alert communication precise and unambiguous across teams
+- **Documentation is the job** — detecting an attack is only half the work; a SOC analyst must clearly communicate *what happened*, *what was affected*, *how confident they are*, and *what should happen next*
+- **Snapshots save hours** — taking VirtualBox snapshots after each major configuration step prevented full rebuilds when configuration errors occurred
 
 ---
 
 ## 🚀 Future Improvements
 
-| Priority | Improvement | Benefit |
-|:--------:|-------------|---------|
-| 🔴 High | Add a dedicated **Kali Linux attacker VM** | Realistic offensive simulation |
-| 🔴 High | Implement **Wazuh Active Response** | Auto-block brute-force source IPs |
-| 🟡 Medium | Build and test **custom Wazuh rule IDs** | Tailored detection logic |
-| 🟡 Medium | Add **auditd** on the Ubuntu endpoint | Deeper Linux syscall visibility |
-| 🟢 Low | Configure **Slack / email alerting** | Real-time high-severity notifications |
-| 🟢 Low | Export **raw JSON alert evidence** | Forensic-grade artefact preservation |
+<div align="center">
 
-### 🗺️ Planned Future Architecture
+| Priority | Improvement | Expected Benefit |
+|:--------:|-------------|-----------------|
+| 🔴 **High** | Add dedicated **Kali Linux attacker VM** (`.104`) | Realistic offensive simulation with real tooling |
+| 🔴 **High** | Enable **Wazuh Active Response** | Auto-block brute-force source IPs in real time |
+| 🟡 **Medium** | Deploy **`auditd`** on the Ubuntu endpoint | Syscall-level Linux telemetry for deeper visibility |
+| 🟡 **Medium** | Write and validate **full custom rule library** | Lab-specific detection logic with tuned thresholds |
+| 🟢 **Low** | Configure **Slack / email alerting** pipeline | Immediate notification on high-severity events |
+| 🟢 **Low** | Export **raw JSON alert artefacts** per incident | Forensic-grade evidence preservation |
+| 🟢 **Low** | Add **Atomic Red Team** integration for simulation | Standardised, repeatable attack test library |
+
+</div>
+
+### 🗺 Planned Future Architecture
 
 ```
-┌──────────────────────────────────────────────────────────────────────┐
-│                  FUTURE LAB  192.168.56.0/24                        │
-│                                                                      │
-│  ┌────────────┐   ┌────────────┐   ┌────────────┐   ┌────────────┐ │
-│  │  WAZUH     │   │ WINDOWS 10 │   │ UBUNTU 22  │   │   KALI     │ │
-│  │  SERVER    │◄─►│ + Sysmon   │   │ + auditd   │◄──│  ATTACKER  │ │
-│  │  .102      │◄─►│   .101     │   │   .103     │   │   .104     │ │
-│  └────────────┘   └────────────┘   └────────────┘   └────────────┘ │
-│        │                                                             │
-│        ▼  Active Response                                            │
-│  [ Auto-block IPs ] [ Slack Alerts ] [ JSON Evidence Export ]       │
-└──────────────────────────────────────────────────────────────────────┘
+╔═══════════════════════════════════════════════════════════════════════╗
+║                FUTURE LAB  —  192.168.56.0/24                        ║
+║                                                                       ║
+║  ┌─────────────┐  ┌──────────────┐  ┌──────────────┐  ┌───────────┐ ║
+║  │ WAZUH 4.7.5 │  │ WINDOWS 10   │  │ UBUNTU 22.04 │  │   KALI    │ ║
+║  │  .102       │◄►│  + Sysmon    │  │  + auditd    │◄─│  .104     │ ║
+║  │  + Active   │◄►│  .101        │  │  .103        │  │ ATTACKER  │ ║
+║  │  Response   │  └──────────────┘  └──────────────┘  └───────────┘ ║
+║  └──────┬──────┘                                                      ║
+║         │                                                             ║
+║         ▼  Automated Response Pipeline                                ║
+║  ┌──────────────────────────────────────────────────────────────┐    ║
+║  │  Auto-block IPs · Slack alerts · JSON evidence export        │    ║
+║  └──────────────────────────────────────────────────────────────┘    ║
+╚═══════════════════════════════════════════════════════════════════════╝
 ```
 
 ---
 
 ## 💼 Resume Bullet
 
-> *"Built a mini enterprise SOC lab using Wazuh SIEM/XDR with Windows Sysmon and Ubuntu Linux endpoints. Configured multi-endpoint log collection, simulated 6 real-world attack scenarios, mapped all detections to the MITRE ATT&CK framework, enabled File Integrity Monitoring and CVE vulnerability detection, and produced 6 formal Incident Response reports plus a full SOC triage document."*
+> *Built a mini enterprise SOC lab using Wazuh SIEM/XDR with Windows Sysmon and Ubuntu Linux endpoints. Deployed all infrastructure from scratch in VirtualBox, configured multi-endpoint log collection, manually simulated 6 real-world attack scenarios, mapped every detection to the MITRE ATT&CK framework (4 tactics, 6 techniques), enabled File Integrity Monitoring and CVE vulnerability detection, and authored 6 structured Incident Response reports plus a full SOC triage document.*
 
 ---
 
 <div align="center">
 
-<!-- Footer wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,100:0d1117&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00B4D8,50:0D2137,100:060D14&height=130&section=footer&animation=fadeIn" width="100%"/>
 
-<p>
-  <img src="https://img.shields.io/badge/Built%20with-Wazuh%20SIEM-005571?style=flat-square&logo=elastic"/>
-  <img src="https://img.shields.io/badge/Framework-MITRE%20ATT%26CK-e63946?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Lab%20Type-SOC%20%2F%20Blue%20Team-2d9a27?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Level-Junior%20SOC%20Analyst-9b5de5?style=flat-square"/>
-</p>
+<br/>
 
-<sub>⭐ If this project helped you, consider giving it a star!</sub>
+[![Wazuh SIEM](https://img.shields.io/badge/Built%20with-Wazuh%20SIEM-005571?style=flat-square&logo=elastic)](https://wazuh.com)
+[![MITRE ATT&CK](https://img.shields.io/badge/Framework-MITRE%20ATT%26CK-CC2200?style=flat-square)](https://attack.mitre.org)
+[![Lab Type](https://img.shields.io/badge/Lab%20Type-SOC%20%2F%20Blue%20Team-1a7a4a?style=flat-square)](#)
+[![Level](https://img.shields.io/badge/Level-Junior%20SOC%20Analyst-6A0DAD?style=flat-square)](#)
+[![VirtualBox](https://img.shields.io/badge/Virtualised%20on-VirtualBox-183A61?style=flat-square&logo=virtualbox)](https://www.virtualbox.org)
+
+<br/>
+
+**⭐ If this lab helped your own SOC journey, a star is always appreciated.**
+
+<sub>Built with open-source tools · 100% reproducible · Portfolio-ready</sub>
 
 </div>
