@@ -1,12 +1,13 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=shark&color=0:0d1117,30:0a1628,60:051020,100:0d1117&height=280&section=header&text=Enterprise%20SOC%20Lab&fontSize=54&fontColor=00b4d8&animation=fadeIn&fontAlignY=45&desc=Wazuh%20SIEM%2FXDR%20%E2%80%A2%20MITRE%20ATT%26CK%20%E2%80%A2%20Incident%20Response%20%E2%80%A2%20Detection%20Engineering&descAlignY=65&descSize=15&descColor=90e0ef" width="100%"/>
+<!-- HERO BANNER — wave type, gradient shifts from deep navy to teal -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,20:0a1628,50:0d2535,80:0a3040,100:0d1117&height=320&section=header&text=Enterprise%20Security%20Assessment%20Lab&fontSize=38&fontColor=64ffda&animation=fadeIn&fontAlignY=42&desc=Web%20VAPT%20%E2%80%A2%20API%20Security%20%E2%80%A2%20Active%20Directory%20%E2%80%A2%20AWS%20Cloud%20%E2%80%A2%20Azure%20%E2%80%A2%20Professional%20Reporting&descAlignY=62&descSize=15&descColor=a8b2d8" width="100%"/>
 
 </div>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=2800&pause=1000&color=00B4D8&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=55&lines=SIEM+Deployment+%E2%80%A2+Alert+Triage+%E2%80%A2+MITRE+ATT%26CK+Mapping+%E2%80%A2+Incident+Response;Wazuh+4.7.5+%E2%80%A2+Sysmon+%E2%80%A2+FIM+%E2%80%A2+Vuln+Detection+%E2%80%A2+6+IR+Reports+Written)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=3200&pause=1300&color=64FFDA&center=true&vCenter=true&multiline=true&repeat=true&width=860&height=55&lines=Red+Team+Operations+%E2%80%A2+Active+Directory+%E2%80%A2+Cloud+Security+Assessment;Impacket+%E2%80%A2+BloodHound+%E2%80%A2+Responder+%E2%80%A2+Pacu+%E2%80%A2+ScoutSuite+%E2%80%A2+CloudGoat)](https://git.io/typing-svg)
 
 </div>
 
@@ -14,1182 +15,456 @@
 
 <div align="center">
 
-<!-- Tier-1 status badges -->
-![Status](https://img.shields.io/badge/Status-Completed-00b4d8?style=for-the-badge&labelColor=0d1117&logo=checkmarx&logoColor=00b4d8)
-![Platform](https://img.shields.io/badge/Platform-VirtualBox%20Lab-1a1a2e?style=for-the-badge&labelColor=0d1117&logo=virtualbox&logoColor=183a61)
-![SIEM](https://img.shields.io/badge/SIEM%2FXDR-Wazuh%204.7.5-0057b7?style=for-the-badge&labelColor=0d1117)
-![MITRE](https://img.shields.io/badge/MITRE%20ATT%26CK-6%20Techniques-e63946?style=for-the-badge&labelColor=0d1117)
-![Reports](https://img.shields.io/badge/IR%20Reports-6%20%2B%201%20Triage-2ec4b6?style=for-the-badge&labelColor=0d1117)
-![Detections](https://img.shields.io/badge/Detection%20Rate-6%20%2F%206-ffd60a?style=for-the-badge&labelColor=0d1117)
+![Status](https://img.shields.io/badge/Status-Active%20Portfolio%20Project-64ffda?style=for-the-badge&labelColor=0d1117)
+![Type](https://img.shields.io/badge/Type-Hands--on%20Security%20Lab-233554?style=for-the-badge&labelColor=0d1117)
+![Level](https://img.shields.io/badge/Level-Beginner%20%E2%86%92%20Intermediate%20Practical-ccd6f6?style=for-the-badge&labelColor=0d1117)
+![Ethics](https://img.shields.io/badge/Ethics-Authorised%20Lab%20Only-ff6b6b?style=for-the-badge&labelColor=0d1117)
+![Cloud Cleanup](https://img.shields.io/badge/Cloud%20Cleanup-Verified-64ffda?style=for-the-badge&labelColor=0d1117)
+![Secrets](https://img.shields.io/badge/Secrets-Redacted-ffd60a?style=for-the-badge&labelColor=0d1117)
 
 <br/>
 
-<!-- Technology badges -->
-![Wazuh](https://img.shields.io/badge/Wazuh_SIEM/XDR-0057b7?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==&logoColor=white)
-![Sysmon](https://img.shields.io/badge/Sysmon-0078D6?style=flat-square&logo=windows&logoColor=white)
-![Windows 10](https://img.shields.io/badge/Windows_10_Pro-0078D6?style=flat-square&logo=windows&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu_22.04.5-E95420?style=flat-square&logo=ubuntu&logoColor=white)
-![VirtualBox](https://img.shields.io/badge/VirtualBox_7.x-183A61?style=flat-square&logo=virtualbox&logoColor=white)
-![MITRE](https://img.shields.io/badge/MITRE_ATT%26CK-E63946?style=flat-square)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
-![OpenSearch](https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white)
-![XML](https://img.shields.io/badge/Wazuh_Rules-XML-orange?style=flat-square)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
+![Windows Server](https://img.shields.io/badge/Windows_Server_2019-0078D6?style=flat-square&logo=windows&logoColor=white)
+![Windows 10](https://img.shields.io/badge/Windows_10-0078D6?style=flat-square&logo=windows&logoColor=white)
+![Active Directory](https://img.shields.io/badge/Active_Directory-003366?style=flat-square&logo=microsoft&logoColor=white)
+![Python](https://img.shields.io/badge/Python_3.x-3776AB?style=flat-square&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+
+<br/>
+
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=portswigger&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-0E83CD?style=flat-square)
+![Gobuster](https://img.shields.io/badge/Gobuster-3DDC84?style=flat-square)
+![Nikto](https://img.shields.io/badge/Nikto-5C4033?style=flat-square)
+![WhatWeb](https://img.shields.io/badge/WhatWeb-607D8B?style=flat-square)
+![SQLMap](https://img.shields.io/badge/SQLMap-C23B22?style=flat-square)
+![John the Ripper](https://img.shields.io/badge/John_the_Ripper-374151?style=flat-square)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![JWT Analysis](https://img.shields.io/badge/JWT_Analysis-000000?style=flat-square)
+![ffuf](https://img.shields.io/badge/ffuf-005571?style=flat-square)
+![Kiterunner](https://img.shields.io/badge/Kiterunner-6e40c9?style=flat-square)
+![GraphQL](https://img.shields.io/badge/GraphQL_Testing-E10098?style=flat-square&logo=graphql&logoColor=white)
+![OAuth](https://img.shields.io/badge/OAuth_Testing-EB5424?style=flat-square)
+
+<br/>
+
+![BloodHound](https://img.shields.io/badge/BloodHound-DC143C?style=flat-square)
+![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=flat-square&logo=neo4j&logoColor=white)
+![Impacket](https://img.shields.io/badge/Impacket-2E4057?style=flat-square&logo=python&logoColor=white)
+![Responder](https://img.shields.io/badge/Responder-8B0000?style=flat-square)
+![Hashcat](https://img.shields.io/badge/Hashcat-374151?style=flat-square)
+![NetExec](https://img.shields.io/badge/NetExec%2FCrackMapExec-1a1a2e?style=flat-square)
+![Amazon AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![AWS CLI](https://img.shields.io/badge/AWS_CLI-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![CloudGoat](https://img.shields.io/badge/CloudGoat-FF4500?style=flat-square)
+![Pacu](https://img.shields.io/badge/Pacu-CC4400?style=flat-square)
+![ScoutSuite](https://img.shields.io/badge/ScoutSuite-1E90FF?style=flat-square)
+![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Azure CLI](https://img.shields.io/badge/Azure_CLI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Azure Cloud Shell](https://img.shields.io/badge/Azure_Cloud_Shell-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 
 </div>
 
 ---
 
-## 📌 Table of Contents
+## 🔎 Project Overview
+
+This repository documents a complete hands-on **Enterprise Security Assessment Lab** built to demonstrate practical cybersecurity capability across five domains. Every completed section is supported by **real screenshots, terminal outputs, tool evidence, and cleanup verification** — not theory, not synthetic data.
+
+```
+Lab Design
+→ Target Deployment
+→ Reconnaissance
+→ Enumeration
+→ Vulnerability Validation
+→ Attack Path Analysis
+→ Evidence Capture
+→ Redaction
+→ Cleanup Verification
+→ Professional Documentation
+```
+
+> ⚠️ **Ethical Notice:** All testing documented in this repository was performed only against self-owned, intentionally vulnerable, or private lab environments. No third-party or production systems were tested.
+
+---
+
+## 🧭 Project Status
 
 <div align="center">
 
-| Navigation |
-|:----------:|
-| [🔎 Overview](#-overview) • [🏗 Architecture](#-lab-architecture) • [⚙️ Setup Guide](#%EF%B8%8F-how-to-reproduce-this-lab) |
-| [⚔️ Attack Simulations](#%EF%B8%8F-attack-simulations) • [🎯 Detections & ATT&CK](#-detections--mitre-attck-mapping) • [📄 Incident Reports](#-incident-reports) |
-| [🔧 Detection Rules](#-detection-rules) • [📸 Evidence Gallery](#-evidence-gallery) • [🧠 Skills Demonstrated](#-skills-demonstrated) |
-| [💡 Lessons Learned](#-lessons-learned) • [🚀 Future Roadmap](#-future-roadmap) • [💼 Resume Bullet](#-resume-bullet) |
+| Domain | Status | Summary |
+|--------|--------|---------|
+| 🌐 Web VAPT | ✅ **Completed — Practical Assessment** | DVWA-based testing covering recon, enumeration, Burp, SQLi, sqlmap, XSS, command injection, file upload, CSRF, and hash cracking |
+| 🔌 API Security | ✅ **Completed — Practical Assessment** | crAPI, JWT analysis, BOLA/IDOR testing, excessive data exposure, rate-limit testing, mass assignment, hidden endpoint discovery, GraphQL, and OAuth request analysis |
+| 🏢 Active Directory | ✅ **Completed** | Full AD lab from scratch — LLMNR poisoning, NTLMv2 capture, Kerberoasting, BloodHound, Pass-the-Hash, DCSync (hashes redacted) |
+| ☁️ AWS Cloud Security | ✅ **Completed** | CloudGoat deployment, IAM privilege escalation, S3 public access, IMDS credential exposure, ScoutSuite audit, verified cleanup |
+| 🔷 Azure Security | ⚠️ **Attempted — Quota Blocked — Cleaned Up** | AzureGoat attempted, blocked by subscription quota, Terraform destroy run, all resources verified removed |
+| 🟡 GCP | 📅 **Deferred** | Deferred after AWS completion — billing hygiene must be validated before adding third cloud provider |
+| 📜 Certification Roadmap | ✅ **Documented** | Structured path: Security+ → eJPT → PNPT → AWS Security Specialty → OSCP |
 
 </div>
 
 ---
 
-## 🔎 Overview
-
-<table>
-<tr>
-<td width="62%">
-
-This is a **fully operational, end-to-end mini enterprise Security Operations Centre** built from scratch using 100% open-source tools. Every component — the SIEM server, the Windows endpoint, the Linux endpoint — was deployed, configured, and verified from a blank VM.
-
-The lab mirrors the **real daily workflow of a Junior SOC Analyst**:
-
-- Deploy SIEM infrastructure and onboard agents
-- Simulate real-world attack techniques manually
-- Triage alerts and map them to MITRE ATT&CK
-- Investigate each incident and document findings formally
-- Write structured Incident Response reports
-
-No synthetic log injection. No pre-built lab shortcuts. Every alert in this project was generated by real activity on real endpoints.
-
-</td>
-<td width="38%" align="center">
+## 🗺️ Lab Architecture
 
 ```
-SOC LAB — AT A GLANCE
-══════════════════════════════
-SIEM Engine    Wazuh 4.7.5
-Dashboard      Wazuh / OpenSearch
-Telemetry      Sysmon (Win) + auth.log
-Endpoints      2 (Win10 + Ubuntu 22.04)
-Network        Host-only isolated
-               192.168.56.0/24
-
-Scenarios      6 executed
-Detections     6 / 6  (100%)
-MITRE Tactics  4 covered
-IR Reports     6 individual
-               + 1 full triage
-FIM            Enabled (/etc/hosts)
-Vuln Scan      Enabled (Wazuh VD)
-Custom Rules   Written + tested
-══════════════════════════════
-Open-source · Reproducible
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                  ENTERPRISE SECURITY ASSESSMENT LAB — TOPOLOGY                ║
+╠═══════════════════════════╦═══════════════════════╦═══════════════════════════╣
+║   INTERNAL AD NETWORK     ║   WEB / API LAB        ║   CLOUD TARGETS           ║
+║   192.168.56.0/24         ║   Docker / Local       ║   AWS  ·  Azure           ║
+╠═══════════════════════════╬═══════════════════════╬═══════════════════════════╣
+║  ┌─────────────────────┐  ║  ┌─────────────────┐  ║  ┌─────────────────────┐  ║
+║  │  Kali Linux         │  ║  │  DVWA            │  ║  │  CloudGoat          │  ║
+║  │  Attacker Machine   │  ║  │  WebGoat         │  ║  │  IAM · S3 · EC2     │  ║
+║  │  Nmap · Impacket    │  ║  │  Juice Shop      │  ║  │  IMDS · Pacu        │  ║
+║  │  Responder · BlHnd  │  ║  │  crAPI           │  ║  │  ScoutSuite         │  ║
+║  └──────────┬──────────┘  ║  └─────────────────┘  ║  └─────────────────────┘  ║
+║             │             ║                        ║  ┌─────────────────────┐  ║
+║  ┌──────────▼──────────┐  ║                        ║  │  AzureGoat          │  ║
+║  │  DC01               │  ║                        ║  │  Attempted          │  ║
+║  │  Windows Server '19 │  ║                        ║  │  Quota blocked      │  ║
+║  │  corp.local         │  ║                        ║  │  Cleaned up ✅      │  ║
+║  ├─────────────────────┤  ║                        ║  └─────────────────────┘  ║
+║  │  WS01               │  ║                        ║                           ║
+║  │  Windows 10 Ent     │  ║                        ║                           ║
+║  └─────────────────────┘  ║                        ║                           ║
+╚═══════════════════════════╩═══════════════════════╩═══════════════════════════╝
 ```
-
-</td>
-</tr>
-</table>
-
-### Core Stack
-
-| Layer | Component | Purpose |
-|-------|-----------|---------|
-| **SIEM / XDR** | Wazuh 4.7.5 | Central detection engine — Manager + Dashboard + Indexer |
-| **Dashboard** | Wazuh / OpenSearch | Alert visualisation, MITRE heatmap, agent management |
-| **Process Telemetry** | Sysmon (Sysinternals) | Deep Windows visibility — process creation, PowerShell, network |
-| **Windows Endpoint** | Windows 10 Pro | Sysmon + Wazuh agent — Windows event log source |
-| **Linux Endpoint** | Ubuntu 22.04.5 LTS | Wazuh agent — auth.log, FIM, sudo monitoring |
-| **Virtualisation** | VirtualBox 7.x | Isolated host-only lab network |
-| **Detection Framework** | MITRE ATT&CK Enterprise | Technique mapping for all detections |
-| **FIM** | Wazuh Syscheck | File integrity monitoring on critical paths |
-| **Vuln Scanner** | Wazuh Vulnerability Detector | CVE exposure identification on both endpoints |
 
 ---
 
-## 🏗 Lab Architecture
-
-```
-╔══════════════════════════════════════════════════════════════════════════╗
-║            ENTERPRISE SOC LAB — HOST-ONLY NETWORK 192.168.56.0/24       ║
-╠══════════════════════════╦═══════════════════════════════════════════════╣
-║   SIEM / XDR SERVER      ║            MONITORED ENDPOINTS                ║
-║   192.168.56.102         ║                                               ║
-╠══════════════════════════╬═══════════════════════════╦═══════════════════╣
-║                          ║                           ║                   ║
-║  ┌────────────────────┐  ║  ┌──────────────────────┐ ║ ┌───────────────┐ ║
-║  │   Wazuh 4.7.5      │◄─╬──│   Windows 10 Pro     │ ║ │ Ubuntu 22.04  │ ║
-║  │   All-in-One       │  ║  │   192.168.56.101     │ ║ │ 192.168.56.103│ ║
-║  │                    │  ║  │                      │ ║ │               │ ║
-║  │  ● Manager         │  ║  │  Monitoring:         │ ║ │ Monitoring:   │ ║
-║  │  ● Dashboard       │◄─╬──│  Windows Event Logs  │ ║ │ /var/log/auth │ ║
-║  │  ● Indexer         │  ║  │  Sysmon Event ID 1   │ ║ │ sudo events   │ ║
-║  │  ● Alert Engine    │  ║  │  PowerShell Logs     │ ║ │ SSH attempts  │ ║
-║  │  ● FIM / Syscheck  │  ║  │  Security Audit Log  │ ║ │ FIM /etc/     │ ║
-║  │  ● Vuln Detector   │◄─╬──│                      │ ║ │               │ ║
-║  └────────────────────┘  ║  └──────────────────────┘ ║ └───────────────┘ ║
-║                          ║                           ║                   ║
-╚══════════════════════════╩═══════════════════════════╩═══════════════════╝
-
-  Log Flow:   Endpoints ──[Wazuh agent, encrypted]──► Manager ──► Indexer
-  Alerting:   Manager rule engine ──► Dashboard ──► IR Workflow
-  FIM:        Syscheck monitors /etc/hosts · checksum diff on every change
-```
-
-### Network Reference
-
-| Component | Technology | IP Address | Role |
-|-----------|-----------|-----------|------|
-| 🖥 **SIEM / XDR** | Wazuh 4.7.5 all-in-one | `192.168.56.102` | Manager · Dashboard · Indexer · Alerting · FIM · Vuln Detection |
-| 💻 **Endpoint 1** | Windows 10 Pro + Sysmon | `192.168.56.101` | Windows event logs · process telemetry · PowerShell detection |
-| 🐧 **Endpoint 2** | Ubuntu 22.04.5 LTS | `192.168.56.103` | Auth logs · SSH monitoring · sudo monitoring · FIM |
-| 📦 **Hypervisor** | VirtualBox 7.x | `192.168.56.0/24` | Host-only isolated lab — no external routing |
-
----
-
-## ⚙️ How to Reproduce This Lab
-
-<details>
-<summary><strong>▶ Prerequisites — System Requirements</strong></summary>
-
-<br/>
-
-| Resource | Minimum | Recommended | Notes |
-|----------|---------|-------------|-------|
-| Host RAM | 8 GB | 16 GB | Wazuh server needs 4 GB alone |
-| Free Disk | 80 GB | 120 GB | Docker images + VM disks |
-| Host OS | Any | Windows / Linux | VirtualBox runs on all |
-| VirtualBox | 7.x | Latest | Free from virtualbox.org |
-| ISOs needed | Ubuntu 22.04 Server + Windows 10 | — | Windows 10 eval ISO is free from Microsoft |
-
-> 💡 **Snapshot tip:** Take a VirtualBox snapshot immediately after each step. Configuration errors early on can cost hours — a snapshot restores in 30 seconds.
-
-</details>
-
-<details>
-<summary><strong>▶ Step 1 — Deploy Wazuh All-in-One Server</strong></summary>
-
-<br/>
-
-**VM Configuration:**
-
-| Setting | Value |
-|---------|-------|
-| OS | Ubuntu 22.04 Server |
-| RAM | 4 GB |
-| vCPU | 2 |
-| Disk | 50 GB |
-| Network | Host-Only Adapter |
-| Static IP | `192.168.56.102` |
-
-```bash
-# ── Set static IP (edit netplan) ──────────────────────────────────────────
-sudo nano /etc/netplan/00-installer-config.yaml
-# Add:
-# network:
-#   ethernets:
-#     enp0s3:
-#       addresses: [192.168.56.102/24]
-#       dhcp4: false
-#   version: 2
-sudo netplan apply
-
-# ── Download and run the Wazuh 4.7 all-in-one installer ──────────────────
-curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh
-sudo bash wazuh-install.sh -a
-# -a flag: deploys Manager + Indexer + Dashboard in a single pass
-# Installation takes approximately 8-12 minutes
-# IMPORTANT: Save the admin password printed at the end of installation
-
-# ── Verify all three Wazuh services are active ───────────────────────────
-sudo systemctl status wazuh-manager
-sudo systemctl status wazuh-indexer
-sudo systemctl status wazuh-dashboard
-
-# ── Access the dashboard ─────────────────────────────────────────────────
-# URL:      https://192.168.56.102
-# Username: admin
-# Password: (from installer output — save this immediately)
-```
-
-> ✅ **Verification:** Navigate to `https://192.168.56.102` in your browser. The Wazuh login page should load. Login with `admin` and your saved password.
-
-</details>
-
-<details>
-<summary><strong>▶ Step 2 — Deploy Windows 10 Agent + Sysmon</strong></summary>
-
-<br/>
-
-**VM Configuration:**
-
-| Setting | Value |
-|---------|-------|
-| OS | Windows 10 Pro |
-| RAM | 2 GB |
-| Disk | 40 GB |
-| Network | Host-Only Adapter |
-| Static IP | `192.168.56.101` |
-
-```powershell
-# ── PART A: Install Wazuh Agent ───────────────────────────────────────────
-# 1. In Wazuh Dashboard → Agents → Deploy new agent → Windows
-# 2. Set Manager address: 192.168.56.102
-# 3. Dashboard generates a pre-configured MSI installer
-# 4. Download the MSI to the Windows VM
-# 5. Run as Administrator — installs and registers agent automatically
-
-# Verify the Wazuh service is running:
-Get-Service WazuhSvc
-# Expected: Status = Running
-
-# ── PART B: Install Sysmon for deep process telemetry ────────────────────
-# Download Sysmon from Microsoft Sysinternals:
-# https://docs.microsoft.com/sysinternals/downloads/sysmon
-
-# Download SwiftOnSecurity config (industry-standard ruleset):
-# https://github.com/SwiftOnSecurity/sysmon-config/blob/master/sysmonconfig-export.xml
-# Save as: sysmonconfig.xml
-
-# Install Sysmon with the config:
-.\sysmon64.exe -accepteula -i sysmonconfig.xml
-
-# Verify Sysmon is running:
-Get-Service Sysmon64
-# Expected: Status = Running
-
-# Confirm Sysmon events are flowing:
-Get-WinEvent -LogName "Microsoft-Windows-Sysmon/Operational" -MaxEvents 5
-# Should show recent events — confirms telemetry is working
-```
-
-> 💡 **Why Sysmon matters:** Default Windows Event Logs are too coarse for modern threat detection. Sysmon captures: process creation with full command lines (Event ID 1), network connections, file creation, registry changes, and PowerShell activity. Without Sysmon, the PowerShell detection in this lab would not be possible.
-
-</details>
-
-<details>
-<summary><strong>▶ Step 3 — Deploy Ubuntu 22.04 Linux Agent</strong></summary>
-
-<br/>
-
-**VM Configuration:**
-
-| Setting | Value |
-|---------|-------|
-| OS | Ubuntu 22.04.5 LTS |
-| RAM | 1 GB |
-| Disk | 20 GB |
-| Network | Host-Only Adapter |
-| Static IP | `192.168.56.103` |
-
-```bash
-# ── Set static IP ─────────────────────────────────────────────────────────
-sudo nano /etc/netplan/00-installer-config.yaml
-# Add static IP 192.168.56.103/24, no DHCP
-sudo netplan apply
-
-# ── Install and configure Wazuh agent ────────────────────────────────────
-curl -sO https://packages.wazuh.com/4.7/wazuh-agent-install.sh
-sudo WAZUH_MANAGER='192.168.56.102' bash wazuh-agent-install.sh
-# WAZUH_MANAGER variable injects the manager IP into the agent config
-# No manual ossec.conf editing required
-
-# ── Enable and start the agent ────────────────────────────────────────────
-sudo systemctl enable wazuh-agent
-sudo systemctl start wazuh-agent
-
-# ── Verify agent is running and communicating ─────────────────────────────
-sudo systemctl status wazuh-agent
-# Expected: Active (running)
-
-# Confirm agent appears in Wazuh Dashboard:
-# Dashboard → Agents → should show ubuntu-endpoint with green Active status
-
-# ── Verify log sources are being monitored ───────────────────────────────
-sudo tail -f /var/ossec/logs/ossec.log | grep -i "monitoring\|reading"
-# Should show: /var/log/auth.log being monitored
-```
-
-> ✅ **Final check:** In the Wazuh Dashboard → **Agents tab**, both `windows-endpoint` (`.101`) and `ubuntu-endpoint` (`.103`) should show a green **Active** indicator. Both agents are now streaming logs to the SIEM. You are ready for attack simulations.
-
-</details>
-
----
-
-## ⚔️ Attack Simulations
+## 🧰 Complete Tools Arsenal
 
 <div align="center">
 
-```
-╔════════════════════════════════════════════════════════════════════════════╗
-║             6 ATTACK SCENARIOS — ALL MANUALLY EXECUTED — ALL DETECTED      ║
-╠════╦═══════════════════════════════════════╦══════════════╦════════════════╣
-║ #  ║ Scenario                               ║ Platform     ║ Result         ║
-╠════╬═══════════════════════════════════════╬══════════════╬════════════════╣
-║ 01 ║ Brute force failed logins              ║ Windows 10   ║ ✅ Detected    ║
-║ 02 ║ Suspicious PowerShell execution        ║ Windows 10   ║ ✅ Detected    ║
-║ 03 ║ New local user account created         ║ Windows 10   ║ ✅ Detected    ║
-║ 04 ║ SSH brute force attack                 ║ Ubuntu 22.04 ║ ✅ Detected    ║
-║ 05 ║ FIM — /etc/hosts modified              ║ Ubuntu 22.04 ║ ✅ Detected    ║
-║ 06 ║ Privilege escalation via sudo          ║ Ubuntu 22.04 ║ ✅ Detected    ║
-╚════╩═══════════════════════════════════════╩══════════════╩════════════════╝
-
-No synthetic log injection. Every alert was generated by real activity.
-Detection rate: 6 / 6 (100%)
-```
+| Category | Tools |
+|----------|-------|
+| 🌐 **Web VAPT** | ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=portswigger&logoColor=white) ![Nmap](https://img.shields.io/badge/Nmap-0E83CD?style=flat-square) ![Gobuster](https://img.shields.io/badge/Gobuster-3DDC84?style=flat-square) ![Nikto](https://img.shields.io/badge/Nikto-5C4033?style=flat-square) ![WhatWeb](https://img.shields.io/badge/WhatWeb-607D8B?style=flat-square) ![SQLMap](https://img.shields.io/badge/SQLMap-C23B22?style=flat-square) `John the Ripper` |
+| 🔌 **API Security** | ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white) `JWT Analysis` ![ffuf](https://img.shields.io/badge/ffuf-005571?style=flat-square) ![Kiterunner](https://img.shields.io/badge/Kiterunner-6e40c9?style=flat-square) ![GraphQL](https://img.shields.io/badge/GraphQL_Testing-E10098?style=flat-square&logo=graphql&logoColor=white) `OAuth Testing` ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=portswigger&logoColor=white) |
+| 🏢 **Active Directory** | ![BloodHound](https://img.shields.io/badge/BloodHound-DC143C?style=flat-square) ![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=flat-square&logo=neo4j&logoColor=white) ![Impacket](https://img.shields.io/badge/Impacket-2E4057?style=flat-square) ![Responder](https://img.shields.io/badge/Responder-8B0000?style=flat-square) ![Hashcat](https://img.shields.io/badge/Hashcat-374151?style=flat-square) `NetExec/CrackMapExec` |
+| ☁️ **Cloud Security** | ![AWS CLI](https://img.shields.io/badge/AWS_CLI-FF9900?style=flat-square&logo=amazonaws&logoColor=white) ![CloudGoat](https://img.shields.io/badge/CloudGoat-FF4500?style=flat-square) ![Pacu](https://img.shields.io/badge/Pacu-CC4400?style=flat-square) ![ScoutSuite](https://img.shields.io/badge/ScoutSuite-1E90FF?style=flat-square) ![Azure CLI](https://img.shields.io/badge/Azure_CLI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) `Azure Cloud Shell` ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) |
 
 </div>
 
 ---
 
-### 🔴 Simulation 01 — Windows Brute Force Failed Logins
+## 📁 Repository Structure
+
+```
+Enterprise-Security-Assessment-Lab/
+│
+├── README.md
+├── .gitignore
+│
+├── 01-web-vapt/
+│   ├── README.md
+│   ├── screenshots/
+│   ├── tool-outputs/
+│   └── scripts/
+│
+├── 02-api-security/
+│   ├── README.md
+│   ├── screenshots/
+│   ├── postman-collections/
+│   └── tools/
+│
+├── 03-ad-network/
+│   ├── README.md
+│   ├── screenshots/
+│   ├── reports/
+│   └── notes/
+│
+├── 04-cloud-security/
+│   ├── README.md
+│   ├── screenshots/
+│   ├── reports/
+│   └── scripts/
+│
+├── 05-azure-security/
+│   ├── README.md
+│   ├── screenshots/
+│   └── reports/
+│
+└── 06-roadmap/
+    └── certification-roadmap.md
+```
+
+---
+
+## 🏢 Active Directory & Internal Network — Completed
+
+> **Platform:** `corp.local` — Kali Linux · Windows Server 2019 · Windows 10 Enterprise
 
 <details>
-<summary><strong>▶ How it was triggered · What Wazuh detected · MITRE mapping · IR report</strong></summary>
+<summary><strong>▶ Full attack chain — LLMNR poisoning to Domain Compromise</strong></summary>
 
 <br/>
 
-**What was simulated:**
-Repeated failed logon attempts against the Windows 10 endpoint to trigger brute-force detection logic. Each failed attempt generates Windows Security Event ID 4625 (An account failed to log on).
-
-**How it was triggered:**
 ```
-Method:      Multiple consecutive failed interactive logon attempts
-Event ID:    4625 — Account Failed to Log On
-Log source:  Windows Security Event Log (Security.evtx)
-Threshold:   Repeated failures within a short window → Wazuh rule fires
-```
-
-**Wazuh detection chain:**
-```
-Windows Security Log
-  └─ Event ID 4625 (failed logon)
-       └─ Wazuh agent ingests → Manager
-            └─ Rule group: win_authentication → multiple failure rule fires
-                 └─ Alert: Severity HIGH — Credential Access detected
-                      └─ MITRE tag: T1110.001 added to alert
+Phase 1: Recon          Phase 2: Credential Capture     Phase 3: Escalation
+────────────────        ───────────────────────────     ─────────────────────────
+Nmap discovery    →     Responder LLMNR poisoning  →    Kerberoasting (Impacket)
+SMB enumeration   →     NTLMv2 hash captured        →    Kerberoast hash cracked
+Domain enum       →     Hashcat offline crack        →    BloodHound path analysis
+enum4linux-ng     →     NetExec credential validation→    Pass-the-Hash → SYSTEM
+                                                     →    DCSync (lab, redacted)
 ```
 
-**Alert fields to review in Wazuh Dashboard:**
-- `rule.description` — human-readable description of the detection
-- `data.win.eventdata.targetUserName` — the targeted username
-- `data.win.eventdata.ipAddress` — source of the attempts
-- `rule.mitre.id` — `T1110.001`
-- `rule.mitre.tactic` — `Credential Access`
+| Technique | MITRE ID | Tool | Outcome |
+|-----------|----------|------|---------|
+| LLMNR/NBT-NS Poisoning | T1557.001 | Responder | NTLMv2 hash captured |
+| Offline Hash Cracking | T1110.002 | Hashcat | Domain credential recovered |
+| SMB Credential Validation | T1021.002 | NetExec | Credentials confirmed valid |
+| Kerberoasting | T1558.003 | Impacket | Service account credential recovered |
+| Domain Object Discovery | T1069.002 | BloodHound | Attack path to DA visualised |
+| Pass-the-Hash | T1550.002 | Impacket | SYSTEM shell obtained |
+| DCSync | T1003.006 | Impacket | Domain hashes extracted (lab, redacted) |
 
-**Screenshot:** `screenshots/01-windows-brute-force-alert.png`
-
-**Incident Report:** [IR-001 — Windows Brute Force Failed Logins](./reports/IR-001-windows-brute-force.md)
+> All sensitive values (hashes, passwords, usernames, IPs) are **fully redacted** before publication.
 
 </details>
 
 ---
 
-### 🔴 Simulation 02 — Suspicious PowerShell Execution
+## ☁️ AWS Cloud Security — Completed
+
+> **Platform:** Personal AWS Free Tier — CloudGoat · Pacu · ScoutSuite · Terraform
 
 <details>
-<summary><strong>▶ How it was triggered · Sysmon Event ID 1 · Rules fired · IR report</strong></summary>
+<summary><strong>▶ IAM enumeration → Privilege escalation → S3 exposure → IMDS → Audit</strong></summary>
 
 <br/>
 
-**What was simulated:**
-Execution of a PowerShell command using encoded payloads and bypass flags — a common technique used by attackers for payload delivery, reconnaissance, and defence evasion.
-
-**How it was triggered:**
-```powershell
-# Suspicious PowerShell patterns that trigger Wazuh detection:
-powershell.exe -ExecutionPolicy Bypass -NoProfile -EncodedCommand <base64>
-powershell.exe -WindowStyle Hidden -NonInteractive -Command "IEX ..."
-powershell.exe -enc <base64_encoded_command>
+```
+Phase 1: Auth & Enum          Phase 2: Exploitation              Phase 3: Audit & Cleanup
+──────────────────────        ─────────────────────────          ─────────────────────────
+AWS CLI configured      →     CloudGoat scenario deployed  →     ScoutSuite full audit
+Identity verified       →     IAM privesc via PassRole+EC2  →     High-severity findings
+IAM perms enumerated    →     Pacu iam__privesc_scan         →     CloudGoat destroyed ✅
+Policy docs reviewed    →     S3 public access (no creds)    →     EC2 terminated ✅
+Resources mapped        →     IMDS temp credentials (lab)    →     Billing verified ✅
 ```
 
-**Detection path through Sysmon → Wazuh:**
-```
-User executes suspicious PowerShell command
-  └─ Sysmon Event ID 1 (Process Create) fires
-       └─ Full command line + parent process captured
-            └─ Wazuh agent ingests Sysmon log → Manager
-                 └─ Rule 92057: PowerShell encoded command detected
-                 └─ Rule 92027: PowerShell spawned by another PowerShell instance
-                      └─ Alert: Severity HIGH
-                           └─ MITRE: T1059.001 — Command & Scripting: PowerShell
-```
+| Finding | Service | Technique | Tool | Outcome |
+|---------|---------|-----------|------|---------|
+| IAM privilege escalation via PassRole+EC2 | IAM | T1078.004 | Pacu | Instance profile assumed |
+| S3 unauthenticated public access | S3 | T1530 | AWS CLI | Objects retrieved without creds |
+| EC2 IMDS credential exposure (IMDSv1) | EC2 | T1552.005 | curl | Temp credentials retrieved (lab) |
+| ScoutSuite full-account audit | Multi-service | Assessment | ScoutSuite | High-severity misconfigs identified |
 
-**Why Sysmon is essential here:**
-Standard Windows event logs (without Sysmon) would only capture that `powershell.exe` launched — not the full command line, not the parent process, not the encoded content. Sysmon's Event ID 1 captures the **complete command line including encoded payloads**, making this detection possible.
-
-**Wazuh rules that fired:**
-
-| Rule ID | Description |
-|---------|------------|
-| 92057 | PowerShell encoded command detected |
-| 92027 | PowerShell process spawned by another PowerShell instance |
-
-**Screenshot:** `screenshots/02-powershell-alert.png`
-
-**Incident Report:** [IR-002 — Suspicious PowerShell Execution](./reports/IR-002-suspicious-powershell.md)
+> Root MFA enabled before deployment. All credentials, account IDs, access keys, and tokens **fully redacted**. Cleanup verified with screenshots.
 
 </details>
 
 ---
 
-### 🟡 Simulation 03 — New Local User Account Created
+## 🔷 Azure Security — Attempted & Cleaned Up
+
+> **Status:** Deployment blocked by subscription quota — documented responsibly
+
+| Step | Outcome |
+|------|---------|
+| Azure account login | ✅ Successful |
+| Azure budget alert configured | ✅ Pre-deployment |
+| Azure Cloud Shell authentication | ✅ (Local CLI had issues — switched to Cloud Shell) |
+| AzureGoat Terraform plan | ✅ Completed |
+| Terraform apply | ⚠️ Blocked — App Service Plan + Basic Public IP quota exceeded |
+| Decision | Did not force past quota limits — documented constraint |
+| Terraform destroy | ✅ 14 resources destroyed |
+| `az group exists` check | ✅ Returned `false` |
+| Azure Portal verification | ✅ No AzureGoat resources visible |
+
+> Stopping at quota boundaries rather than forcing incomplete deployments demonstrates the same discipline required in production cloud environments. Quota awareness, cost control, and clean teardown are real cloud engineering skills.
+
+---
+
+## 🌐 Web VAPT — Completed
+
+> **Targets:** DVWA · WebGoat · OWASP Juice Shop · Metasploitable2
 
 <details>
-<summary><strong>▶ How it was triggered · Persistence technique · IR report</strong></summary>
+<summary><strong>▶ Full methodology: Recon → Exploitation → Post-exploitation</strong></summary>
 
 <br/>
 
-**What was simulated:**
-Creation of a new local user account on the Windows endpoint — a persistence technique used by attackers to maintain access after initial compromise.
+| # | Vulnerability | OWASP | CVSS | Target | Evidence |
+|---|--------------|-------|------|--------|---------|
+| F-01 | SQL Injection (Union-based) | A03 | 9.8 🔴 | DVWA | Screenshots + SQLMap dump |
+| F-02 | OS Command Injection | A03 | 9.8 🔴 | DVWA | Reverse shell obtained |
+| F-03 | File Upload → RCE | A04 | 8.8 🔴 | DVWA | PHP webshell executed |
+| F-04 | Stored XSS + Session Hijack | A03 | 8.2 🟠 | DVWA | Cookie theft demonstrated |
+| F-05 | IDOR — Cross-user Data Access | A01 | 7.5 🟠 | WebGoat | Parameter tampering |
+| F-06 | CSRF — Password Change | A01 | 6.8 🟡 | DVWA | Forged form auto-submit |
+| F-07 | SSRF — Internal Service Access | A10 | 8.6 🔴 | WebGoat | Internal response returned |
+| F-08 | Brute Force / No Rate Limiting | A07 | 7.4 🟠 | DVWA | Hydra credential recovery |
 
-**How it was triggered:**
-```cmd
-# New user creation via command prompt (run as Administrator):
-net user backdoor P@ssword123! /add
-
-# Or via PowerShell:
-New-LocalUser -Name "backdoor" -Password (ConvertTo-SecureString "P@ssword123!" -AsPlainText -Force)
-```
-
-**Detection path:**
-```
-New user account created
-  └─ Windows Security Event ID 4720 (User account was created)
-       └─ Wazuh agent ingests Security log → Manager
-            └─ Rule fires for account creation event
-                 └─ Alert: Severity MEDIUM
-                      └─ MITRE: T1136.001 — Create Account: Local Account
-```
-
-**Alert fields to review:**
-- `data.win.eventdata.targetUserName` — name of the newly created account
-- `data.win.eventdata.subjectUserName` — account that created it
-- `timestamp` — exact creation time
-
-**Screenshot:** `screenshots/03-new-user-alert.png`
-
-**Incident Report:** [IR-003 — New Local User Creation](./reports/IR-003-new-local-user-windows.md)
+**Methodology:** OWASP Testing Guide v4.2 · CVSSv3.1 scoring · Manual PoC before tool confirmation
 
 </details>
 
 ---
 
-### 🔴 Simulation 04 — Linux SSH Brute Force
+## 🔌 API Security — Completed
+
+> **Targets:** crAPI (OWASP) · OWASP Juice Shop · WebGoat
 
 <details>
-<summary><strong>▶ How it was triggered · auth.log analysis · Rules fired · IR report</strong></summary>
+<summary><strong>▶ OWASP API Top 10 — all 10 categories tested</strong></summary>
 
 <br/>
 
-**What was simulated:**
-Repeated failed SSH authentication attempts against the Ubuntu endpoint from an external source, simulating a remote credential stuffing or brute-force attack against an exposed SSH service.
-
-**How it was triggered:**
-```bash
-# From another machine on the same host-only network:
-# Repeated failed SSH connections generate auth.log entries
-# Each failure: "Failed password for <user> from <IP> port <port> ssh2"
-
-# Example auth.log entries generated:
-# Nov 12 14:23:01 ubuntu sshd[1234]: Failed password for invalid user admin from 192.168.56.1 port 45231 ssh2
-# Nov 12 14:23:02 ubuntu sshd[1235]: Failed password for invalid user root from 192.168.56.1 port 45232 ssh2
-# Nov 12 14:23:03 ubuntu sshd[1236]: Invalid user postgres from 192.168.56.1 port 45233
-```
-
-**Detection path:**
-```
-Failed SSH authentication attempts
-  └─ /var/log/auth.log — entries written in real time
-       └─ Wazuh agent tails auth.log continuously
-            └─ Rule 5710: SSH login using non-existent user
-            └─ Rule 2502: User missed the password more than one time
-                 └─ Alert: Severity HIGH
-                      └─ MITRE: T1110.001 — Brute Force: Password Guessing
-```
-
-**Wazuh rules that fired:**
-
-| Rule ID | Description | Trigger Condition |
-|---------|------------|------------------|
-| 5710 | SSH login using non-existent user | Username doesn't exist on system |
-| 2502 | User missed the password more than once | Repeated failures for same user |
-
-**Screenshot:** `screenshots/04-linux-ssh-brute-force.png`
-
-**Incident Report:** [IR-004 — Linux SSH Brute Force](./reports/IR-004-linux-ssh-brute-force.md)
+| # | Finding | OWASP API ID | CVSS | Evidence |
+|---|---------|-------------|------|---------|
+| AF-01 | BOLA — mechanic report ID enumeration | API1 | 9.1 🔴 | Cross-user data confirmed |
+| AF-02 | JWT algorithm confusion (alg:none) | API2 | 9.1 🔴 | Forged token accepted |
+| AF-03 | OTP brute force — no rate limiting | API2/4 | 9.1 🔴 | All 10,000 combinations testable |
+| AF-04 | Mass assignment — role field injection | API6 | 8.8 🔴 | Extra fields accepted |
+| AF-05 | Admin endpoints accessible with user token | API5 | 8.8 🔴 | 200 response on admin endpoint |
+| AF-06 | Excessive data exposure — hidden JSON fields | API3 | 7.1 🟠 | UI vs raw API field comparison |
+| AF-07 | Shadow API — undocumented v3 OTP endpoint | API9 | 7.5 🟠 | kiterunner discovery |
+| AF-08 | CORS — arbitrary origin reflected | API8 | 6.5 🟡 | Access-Control-Allow-Origin: * |
 
 </details>
 
 ---
 
-### 🟡 Simulation 05 — File Integrity Monitoring: /etc/hosts Modified
+## 🎯 MITRE ATT&CK Coverage
 
-<details>
-<summary><strong>▶ FIM mechanism · Wazuh Syscheck · DNS hijacking context · IR report</strong></summary>
-
-<br/>
-
-**What was simulated:**
-Modification of the `/etc/hosts` file on the Ubuntu endpoint — a technique used by attackers to redirect DNS resolution for specific domains to attacker-controlled IP addresses.
-
-**How it was triggered:**
-```bash
-# Append a malicious entry to /etc/hosts:
-sudo echo "1.2.3.4 legitimate-bank.com" >> /etc/hosts
-
-# Or edit directly:
-sudo nano /etc/hosts
-# Add: 192.168.56.1 github.com
 ```
+MITRE ATT&CK ENTERPRISE — COMPLETED COVERAGE
+═══════════════════════════════════════════════════════════════════════════
 
-**How Wazuh FIM (Syscheck) works:**
+TACTIC                TECHNIQUE ID    TECHNIQUE NAME                    ✓
+──────────────────────────────────────────────────────────────────────────
+Credential Access     T1557.001       LLMNR/NBT-NS Poisoning            ✅
+Credential Access     T1110.002       Brute Force: Password Cracking    ✅
+Credential Access     T1558.003       Kerberoasting                     ✅
+Credential Access     T1003.006       DCSync (lab)                      ✅
+Credential Access     T1552.005       Cloud Instance Metadata API       ✅
+Discovery             T1069.002       Domain Group Discovery            ✅
+Discovery             T1580           Cloud Infrastructure Discovery    ✅
+Lateral Movement      T1021.002       SMB/Windows Admin Shares          ✅
+Lateral Movement      T1550.002       Pass the Hash                     ✅
+Privilege Escalation  T1078.004       Valid Accounts: Cloud Accounts    ✅
+Collection            T1530           Data from Cloud Storage           ✅
 ```
-Wazuh Syscheck runs on a configured schedule (default: every 6 hours, near-real-time for critical files)
-  └─ At each run: computes MD5/SHA1/SHA256 checksum of monitored files
-       └─ Compares against baseline stored in Wazuh database
-            └─ /etc/hosts checksum has CHANGED
-                 └─ Rule 550: Integrity checksum changed
-                      └─ Alert fired with:
-                           ├─ File path: /etc/hosts
-                           ├─ Modification timestamp
-                           ├─ Previous checksum value
-                           └─ New checksum value
-```
-
-**Why this matters in real environments:**
-`/etc/hosts` modification is used in real attacks to redirect legitimate domains to attacker-controlled servers — enabling credential phishing, man-in-the-middle attacks, and software update hijacking. FIM provides immediate detection even when no process-level logs are available.
-
-**Rule that fired:**
-
-| Rule ID | Description |
-|---------|------------|
-| 550 | Integrity checksum changed |
-
-**Screenshot:** `screenshots/05-fim-hosts-modified.png`
-
-**Incident Report:** [IR-005 — FIM: /etc/hosts Modified](./reports/IR-005-fim-hosts-modified.md)
-
-</details>
 
 ---
 
-### 🔴 Simulation 06 — Linux Sudo Privilege Escalation
+## 📸 Evidence Matrix
 
-<details>
-<summary><strong>▶ Sudo monitoring · both success and failure cases · IR report</strong></summary>
-
-<br/>
-
-**What was simulated:**
-Both successful privilege escalation via `sudo` and repeated failed `sudo` attempts — demonstrating Wazuh's monitoring of Linux privilege elevation events from `/var/log/auth.log`.
-
-**How it was triggered:**
-```bash
-# ── SUCCESSFUL sudo escalation ────────────────────────────────────────────
-sudo su -
-sudo bash
-sudo cat /etc/shadow
-
-# Each successful sudo generates auth.log entry:
-# "sudo: username : TTY=pts/0 ; PWD=/home/user ; USER=root ; COMMAND=/bin/bash"
-
-# ── FAILED sudo attempts (3 consecutive) ─────────────────────────────────
-sudo some_command_as_wrong_user
-# Three failures generate: "sudo: 3 incorrect password attempts"
-```
-
-**Detection path:**
-```
-sudo events written to /var/log/auth.log
-  └─ Wazuh agent monitors auth.log in real-time
-       ├─ Successful escalation:
-       │    └─ Rule 5402: Successful sudo to ROOT executed
-       │         └─ Alert: Severity HIGH
-       └─ Failed attempts (3x):
-            └─ Rule 5404: Three failed attempts to run sudo
-                 └─ Alert: Severity HIGH
-                      └─ MITRE: T1548.003 — Abuse Elevation Control: Sudo
-```
-
-**Wazuh rules that fired:**
-
-| Rule ID | Description | Severity |
-|---------|------------|---------|
-| 5402 | Successful sudo to ROOT executed | 🔴 High |
-| 5404 | Three failed attempts to run sudo | 🔴 High |
-
-**Screenshot:** `screenshots/06-sudo-privilege-escalation.png`
-
-**Incident Report:** [IR-006 — Linux Sudo Privilege Escalation](./reports/IR-006-linux-sudo-escalation.md)
-
-</details>
+| Sub-Project | Evidence Type | Count | Redacted Values |
+|-------------|--------------|-------|----------------|
+| Web VAPT | Screenshots + tool outputs | 15+ | Session tokens |
+| API Security | Screenshots + Postman exports | 12+ | JWT tokens |
+| AD & Network | Screenshots | 10 | All hashes, passwords, IPs |
+| AWS Cloud | Screenshots | 8 | Account IDs, access keys, tokens |
+| Azure | Screenshots | 3 | Subscription IDs, tenant IDs |
 
 ---
 
-## 🎯 Detections & MITRE ATT&CK Mapping
+## 🔒 Redaction & Secret Handling
 
-```
-MITRE ATT&CK ENTERPRISE — FULL COVERAGE MAP FOR THIS LAB
-══════════════════════════════════════════════════════════════════════════════
+All published evidence follows strict redaction rules:
+- **Hashes** (NTLMv2, Kerberoast, NTLM) — redacted or blurred before publication
+- **AWS credentials** (account IDs, access keys, secret keys, session tokens) — fully redacted
+- **Azure IDs** (subscription, tenant) — redacted in all screenshots
+- **Plaintext passwords** — never published in any form
+- **Internal IPs and hostnames** — redacted where identifiable
 
- TACTIC                TECHNIQUE ID    TECHNIQUE NAME                  PLATFORM
- ────────────────────────────────────────────────────────────────────────────
- Credential Access     T1110.001       Brute Force: Password Guessing  Windows
- Execution             T1059.001       Command & Scripting: PowerShell Windows
- Defense Evasion       T1059.001       (same technique, dual tactic)   Windows
- Persistence           T1136.001       Create Account: Local Account   Windows
- Credential Access     T1110.001       Brute Force: Password Guessing  Linux
- Impact                T1565.001       Stored Data Manipulation (FIM)  Linux
- Privilege Escalation  T1548.003       Abuse Elevation Control: Sudo   Linux
- ────────────────────────────────────────────────────────────────────────────
-
- Unique Techniques:    6
- Tactics Covered:      Credential Access · Execution · Defense Evasion
-                       Persistence · Privilege Escalation · Impact
- Detection Rate:       6 / 6  (100%)
-```
-
-### Full Detection, Rule & MITRE Reference Table
-
-| # | Detection | Log Source | Event ID / Trigger | Wazuh Rule(s) | MITRE ID | Technique | Tactic | Severity |
-|---|-----------|-----------|-------------------|--------------|---------|-----------|--------|---------|
-| 01 | Windows brute force failed logins | Windows Security Log | Event ID 4625 | win_authentication group | [T1110.001](https://attack.mitre.org/techniques/T1110/001/) | Brute Force: Password Guessing | Credential Access | 🔴 High |
-| 02 | Suspicious PowerShell execution | Sysmon Event ID 1 · WinEvent | Sysmon Process Create | 92057 · 92027 | [T1059.001](https://attack.mitre.org/techniques/T1059/001/) | Command & Scripting: PowerShell | Execution / Defense Evasion | 🔴 High |
-| 03 | New local user account created | Windows Security Log | Event ID 4720 | win_account_mgmt group | [T1136.001](https://attack.mitre.org/techniques/T1136/001/) | Create Account: Local Account | Persistence | 🟡 Medium |
-| 04 | SSH brute force attack | `/var/log/auth.log` | sshd: Failed password | 5710 · 2502 | [T1110.001](https://attack.mitre.org/techniques/T1110/001/) | Brute Force: Password Guessing | Credential Access | 🔴 High |
-| 05 | `/etc/hosts` modified (FIM) | Wazuh Syscheck / FIM | Checksum diff | 550 | [T1565.001](https://attack.mitre.org/techniques/T1565/001/) | Stored Data Manipulation | Impact | 🟡 Medium |
-| 06 | Sudo privilege escalation | `/var/log/auth.log` | sudo: ROOT executed | 5402 · 5404 | [T1548.003](https://attack.mitre.org/techniques/T1548/003/) | Abuse Elevation: Sudo Caching | Privilege Escalation | 🔴 High |
-| — | CVE / vulnerability exposure | Wazuh Vulnerability Detector | NVD match | Vuln Detector | CVE Scan | Vulnerability Management | Risk Management | 🔴 High |
+**Tool used:** Flameshot (annotate → blur) on Kali Linux
 
 ---
 
-## 📄 Incident Reports
+## ✅ Cloud Cleanup Verification
 
-Every detection in this lab was documented as a **formal Incident Response report** — the same deliverable structure expected from a junior analyst in a real enterprise SOC environment.
+| Lab | Action Taken | Verification | Status |
+|-----|-------------|-------------|--------|
+| AD Lab | Host-only VM network — no external exposure | Network adapter confirmed host-only | ✅ |
+| AWS CloudGoat | `cloudgoat.py destroy` after each session | EC2 terminated · S3 removed · screenshot | ✅ |
+| AWS Pacu/ScoutSuite | Read-only enumeration — no persistent resources | AWS console reviewed | ✅ |
+| AWS Billing | Free-tier dashboard reviewed | Screenshot captured | ✅ |
+| Azure AzureGoat | `terraform destroy` — 14 resources destroyed | Screenshot captured | ✅ |
+| Azure Resource Group | `az group exists` | Returned `false` | ✅ |
+| Azure Portal | Manual review | No AzureGoat resources visible | ✅ |
+
+---
+
+## 📜 Certification Roadmap
+
+> Full path: [`06-roadmap/certification-roadmap.md`](./06-roadmap/certification-roadmap.md)
+
+| Stage | Certification | Provider | Focus |
+|-------|--------------|----------|-------|
+| 🔵 Foundation | CompTIA Security+ | CompTIA | Broad security fundamentals |
+| 🟢 Entry Practical | eJPT | eLearnSecurity | Beginner hands-on pentesting |
+| 🟡 Intermediate | PNPT or PenTest+ | TCM Security / CompTIA | Practical pentest methodology |
+| 🟠 Cloud | AWS Security Specialty or AZ-500 | AWS / Microsoft | Cloud security professional |
+| 🔴 Advanced | OSCP | Offensive Security | Gold-standard 24-hour practical exam |
+
+---
+
+## 🚀 Future Improvements
+
+- [ ] Complete Web VAPT formal PDF report with CVSSv3.1 scoring per finding
+- [ ] Complete API Security formal report — crAPI + PortSwigger API labs
+- [ ] Resolve Azure subscription quota and retry AzureGoat deployment
+- [ ] Add GCP security lab after billing and cleanup workflow is validated
+- [ ] Add MITRE ATT&CK Navigator layer file covering all completed techniques
+- [ ] Add detection engineering section with Wazuh / SOC alerts cross-referencing this lab
+- [ ] Add GCP mini-lab only after billing and cleanup workflow is mature
+
+---
+
+## 📬 Contact & Connect
 
 <div align="center">
 
-| Report ID | Title | Platform | Severity | MITRE | Link |
-|-----------|-------|---------|---------|-------|------|
-| **IR-001** | Windows Brute Force Failed Logins | Windows | 🔴 High | T1110.001 | [View →](./reports/IR-001-windows-brute-force.md) |
-| **IR-002** | Suspicious PowerShell Execution | Windows | 🔴 High | T1059.001 | [View →](./reports/IR-002-suspicious-powershell.md) |
-| **IR-003** | New Local User Creation | Windows | 🟡 Medium | T1136.001 | [View →](./reports/IR-003-new-local-user-windows.md) |
-| **IR-004** | Linux SSH Brute Force | Linux | 🔴 High | T1110.001 | [View →](./reports/IR-004-linux-ssh-brute-force.md) |
-| **IR-005** | File Integrity — /etc/hosts Modified | Linux | 🟡 Medium | T1565.001 | [View →](./reports/IR-005-fim-hosts-modified.md) |
-| **IR-006** | Linux Sudo Privilege Escalation | Linux | 🔴 High | T1548.003 | [View →](./reports/IR-006-linux-sudo-escalation.md) |
-| **Triage** | **Full SOC Triage Report — All Incidents** | Both | All | All above | [View →](./reports/SOC-full-triage-report.md) |
-
-</div>
-
-### Incident Report Template Structure
-
-<details>
-<summary><strong>▶ Click to see the IR format used across all 6 reports</strong></summary>
-
-<br/>
-
-Each report follows this structure — modelled on real SOC analyst deliverables:
-
-```
-INCIDENT REPORT — IR-00X
-══════════════════════════════════════════════════════════════════
-Title:           [Incident name]
-Report Date:     [Date written]
-Detection Time:  [Timestamp from Wazuh alert]
-Severity:        [Critical / High / Medium / Low]
-Platform:        [Windows / Linux]
-MITRE ID:        [Technique ID — Technique Name]
-MITRE Tactic:    [ATT&CK tactic]
-Wazuh Rule(s):   [Rule IDs that triggered]
-Status:          [Resolved / Monitoring]
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-1. EXECUTIVE SUMMARY
-   One clear paragraph: what was detected, on which system,
-   at what time, and why it matters.
-
-2. DETECTION DETAILS
-   Log source, rule IDs that fired, key alert fields
-   (source IP, username, command, file path, timestamp).
-
-3. ATTACK TIMELINE
-   Timestamped sequence: simulation → log entry → alert generated.
-
-4. IMPACT ASSESSMENT
-   What could an attacker achieve if this were real?
-   What systems or data are at risk?
-
-5. EVIDENCE
-   Wazuh dashboard screenshot reference + key fields visible.
-
-6. CONTAINMENT & RESPONSE
-   Immediate steps: block IP, disable account, restore file, etc.
-
-7. RECOMMENDATIONS
-   Longer-term hardening to prevent recurrence.
-
-8. LESSONS LEARNED
-   What this detection confirms about monitoring coverage.
-```
-
-</details>
-
----
-
-## 🔧 Detection Rules
-
-This lab uses **Wazuh built-in rules** for all six detections. Custom rule examples demonstrating extended detection logic are provided in the `Rules/` folder.
-
-### Built-in Rules — Active & Confirmed
-
-| Rule ID | Description | Platform | MITRE Technique | Triggered By |
-|---------|------------|---------|----------------|-------------|
-| 92057 | PowerShell encoded command detected | Windows | T1059.001 | `-EncodedCommand` flag |
-| 92027 | PowerShell spawned by another PowerShell instance | Windows | T1059.001 | Process parent-child chain |
-| 5710 | SSH login using non-existent user | Linux | T1110.001 | Invalid username in sshd |
-| 2502 | User missed the password more than once | Linux | T1110.001 | Repeated auth failures |
-| 5402 | Successful sudo to ROOT executed | Linux | T1548.003 | sudo: USER=root |
-| 5404 | Three failed attempts to run sudo | Linux | T1548.003 | 3x sudo failures |
-| 550 | Integrity checksum changed | Linux | T1565.001 | File hash mismatch |
-
-### Custom Rule Examples — `Rules/custom_rules.xml`
-
-<details>
-<summary><strong>▶ View custom Wazuh XML rules written for this lab</strong></summary>
-
-<br/>
-
-```xml
-<!-- ═══════════════════════════════════════════════════════════════════════
-     CUSTOM WAZUH DETECTION RULES — Enterprise SOC Lab
-     File: Rules/custom_rules.xml
-     Purpose: Extended detection logic beyond built-in rules
-     ═══════════════════════════════════════════════════════════════════════ -->
-
-<group name="custom_soc_lab,">
-
-  <!-- ── Rule 1: New local user creation on Windows (Event ID 4720) ──────── -->
-  <rule id="100001" level="10">
-    <if_sid>18104</if_sid>
-    <field name="win.system.eventID">^4720$</field>
-    <description>Windows: New local user account created — potential persistence mechanism</description>
-    <mitre>
-      <id>T1136.001</id>
-    </mitre>
-    <group>authentication,account_management,gdpr_IV_35.7.d,</group>
-  </rule>
-
-  <!-- ── Rule 2: Specific /etc/hosts file modification (FIM) ───────────── -->
-  <rule id="100002" level="9">
-    <if_sid>550</if_sid>
-    <field name="file">/etc/hosts</field>
-    <description>FIM: /etc/hosts modified — possible DNS hijacking or host redirect attack</description>
-    <mitre>
-      <id>T1565.001</id>
-    </mitre>
-    <group>syscheck,fim,integrity_check_host,</group>
-  </rule>
-
-  <!-- ── Rule 3: PowerShell with suspicious flags (combines patterns) ────── -->
-  <rule id="100003" level="12">
-    <if_group>windows</if_group>
-    <field name="win.eventdata.commandLine" type="pcre2">(?i)(bypass|noprofile|hidden|windowstyle\s+hidden|encodedcommand|-enc\s)</field>
-    <description>Windows: PowerShell launched with evasion flags — review command line immediately</description>
-    <mitre>
-      <id>T1059.001</id>
-    </mitre>
-    <group>windows,powershell,defense_evasion,</group>
-  </rule>
-
-  <!-- ── Rule 4: SSH brute force — rapid failures from single IP ─────────── -->
-  <rule id="100004" level="10" frequency="8" timeframe="120">
-    <if_matched_sid>5710</if_matched_sid>
-    <same_source_ip />
-    <description>Linux: SSH brute force — 8+ failures from same IP within 2 minutes</description>
-    <mitre>
-      <id>T1110.001</id>
-    </mitre>
-    <group>authentication_failures,brute_force,</group>
-  </rule>
-
-  <!-- ── Rule 5: Successful sudo after prior failures (escalation chain) ─── -->
-  <rule id="100005" level="12">
-    <if_sid>5402</if_sid>
-    <if_matched_sid>5404</if_matched_sid>
-    <same_user />
-    <timeframe>300</timeframe>
-    <description>Linux: Sudo SUCCESS after prior FAILURES — possible credential brute force followed by escalation</description>
-    <mitre>
-      <id>T1548.003</id>
-    </mitre>
-    <group>privilege_escalation,sudo,attack_chain,</group>
-  </rule>
-
-</group>
-```
-
-**Deploy custom rules to Wazuh:**
-```bash
-# Copy rules file to Wazuh manager on the server VM:
-sudo cp Rules/custom_rules.xml /var/ossec/etc/rules/custom_soc_lab_rules.xml
-
-# Validate XML syntax before restart:
-sudo /var/ossec/bin/ossec-logtest -t
-
-# Restart Wazuh manager to load new rules:
-sudo systemctl restart wazuh-manager
-
-# Verify rules are loaded:
-sudo grep "100001\|100002\|100003\|100004\|100005" /var/ossec/logs/ossec.log
-```
-
-</details>
-
----
-
-## 📸 Evidence Gallery
-
-<details>
-<summary><strong>▶ Wazuh Dashboard — Main Overview</strong></summary>
-<br/>
-
-The Wazuh SIEM/XDR dashboard showing the consolidated security event view across both endpoints — alert distribution, severity breakdown by rule group, active agent health, and event timeline.
-
-![Wazuh Dashboard Overview](./screenshots/wazuh-dashboard.png)
-
-</details>
-
-<details>
-<summary><strong>▶ Both Agents Active — Connected & Reporting</strong></summary>
-<br/>
-
-Wazuh Agents management tab showing both `windows-endpoint` (`192.168.56.101`) and `ubuntu-endpoint` (`192.168.56.103`) with green **Active** status. Confirms log collection is live from both platforms simultaneously.
-
-![Both Agents Active](./screenshots/agents-connected.png)
-
-</details>
-
-<details>
-<summary><strong>▶ Windows Brute Force Alert — Alert Detail View</strong></summary>
-<br/>
-
-Wazuh alert detail for the Windows brute-force simulation. Shows: rule ID, severity level, source IP, targeted user account, detection timestamp, and MITRE ATT&CK technique tag (T1110.001). Alert fired on repeated Event ID 4625 entries from the Windows Security Event Log.
-
-![Windows Brute Force Alert](./screenshots/01-windows-brute-force-alert.png)
-
-</details>
-
-<details>
-<summary><strong>▶ Suspicious PowerShell Execution Alert</strong></summary>
-<br/>
-
-Alert showing suspicious PowerShell activity captured via Sysmon Event ID 1 (Process Create). Rules 92057 and 92027 fired on the encoded command pattern and PowerShell-spawning-PowerShell parent-child process relationship. The full command line is visible in the alert — only possible because of Sysmon.
-
-![PowerShell Alert](./screenshots/02-powershell-alert.png)
-
-</details>
-
-<details>
-<summary><strong>▶ New Local User Creation Alert</strong></summary>
-<br/>
-
-Alert raised on Windows Security Event ID 4720. Shows the new account name, the account that created it, and the timestamp. This is the exact data an analyst uses to determine whether account creation was authorised change-management activity or a persistence mechanism.
-
-![New User Alert](./screenshots/03-new-user-alert.png)
-
-</details>
-
-<details>
-<summary><strong>▶ Linux SSH Brute Force Alert</strong></summary>
-<br/>
-
-Alert raised on repeated failed SSH authentication attempts collected from `/var/log/auth.log`. Wazuh rules 5710 and 2502 fired, flagging the invalid user and repeated failure pattern. Source IP and targeted usernames are visible in the alert detail.
-
-![Linux SSH Brute Force](./screenshots/04-linux-ssh-brute-force.png)
-
-</details>
-
-<details>
-<summary><strong>▶ File Integrity Monitoring — /etc/hosts Modified</strong></summary>
-<br/>
-
-FIM alert showing that the checksum of `/etc/hosts` changed. Wazuh Syscheck rule 550 fired, capturing: file path, modification timestamp, previous hash value, new hash value. This gives a complete before/after record of the change — critical evidence for forensic investigation.
-
-![FIM Alert](./screenshots/05-fim-hosts-modified.png)
-
-</details>
-
-<details>
-<summary><strong>▶ Linux Sudo Privilege Escalation Alert</strong></summary>
-<br/>
-
-Alert from `/var/log/auth.log` showing both successful root escalation via `sudo` (Rule 5402) and failed attempts (Rule 5404). In a real environment, unexpected sudo usage by a service account or off-hours escalation should immediately trigger analyst investigation.
-
-![Sudo Privilege Escalation](./screenshots/06-sudo-privilege-escalation.png)
-
-</details>
-
-<details>
-<summary><strong>▶ MITRE ATT&CK Dashboard</strong></summary>
-<br/>
-
-The Wazuh MITRE ATT&CK module heatmap showing all detected techniques plotted against the ATT&CK Enterprise matrix. This view maps real alerts from the lab to threat actor tactics — giving an immediate operational picture of which kill-chain phases were active.
-
-![MITRE ATT&CK Dashboard](./screenshots/mitre-attck-dashboard.png)
-
-</details>
-
-<details>
-<summary><strong>▶ Vulnerability Detection Results</strong></summary>
-<br/>
-
-Wazuh Vulnerability Detector results showing CVE exposure identified on both monitored endpoints. The Vulnerability Detector correlates installed package versions against the NVD database and surfaces unpatched software — demonstrating a key component of continuous vulnerability management.
-
-![Vulnerability Detection](./screenshots/vulnerability-detection.png)
-
-</details>
-
----
-
-## 🧠 Skills Demonstrated
-
-<details>
-<summary><strong>▶ SIEM Deployment & Infrastructure</strong></summary>
-<br/>
-
-- Deployed Wazuh 4.7.5 all-in-one (Manager + Indexer + Dashboard) on Ubuntu 22.04 from scratch
-- Configured static networking and verified all three Wazuh service components independently
-- Enrolled a Windows 10 Pro agent with Sysmon for enhanced process visibility
-- Enrolled an Ubuntu 22.04.5 agent with auth log and sudo monitoring
-- Verified agent connectivity and real-time log ingestion through the Dashboard
-- Enabled and configured File Integrity Monitoring (FIM/Syscheck) on critical Linux paths
-- Enabled Wazuh Vulnerability Detector across both endpoints and reviewed CVE findings
-- Wrote and deployed custom Wazuh XML detection rules with MITRE ATT&CK tagging
-
-</details>
-
-<details>
-<summary><strong>▶ Attack Simulation & Detection Validation</strong></summary>
-<br/>
-
-- Simulated 6 attack scenarios manually — no synthetic log injection
-- Confirmed Wazuh detection for all 6 simulations — 100% detection rate
-- Identified specific Wazuh rule IDs responsible for each alert and understood trigger logic
-- Understood and documented the detection chain from raw log → rule engine → alert
-- Verified that all 6 detections appeared correctly in the MITRE ATT&CK dashboard module
-- Wrote custom Wazuh rules as an extension of built-in detection coverage
-
-</details>
-
-<details>
-<summary><strong>▶ Alert Triage & SOC Analyst Workflow</strong></summary>
-<br/>
-
-- Triaged alerts in the Wazuh dashboard, identifying key fields per alert: rule ID, severity, source/destination, timestamp, MITRE tag
-- Navigated from alert summary → full event detail — the core analyst drill-down workflow
-- Used alert context (source IP, username, process name, command line) to assess true vs false positive
-- Applied MITRE ATT&CK tactic → technique → sub-technique classification to each alert
-- Correlated Windows Sysmon data (Event ID 1) with Windows Security events to build a complete incident picture
-
-</details>
-
-<details>
-<summary><strong>▶ Incident Response & Formal Documentation</strong></summary>
-<br/>
-
-- Authored 6 individual incident reports — one per detection — using a formal IR template
-- Produced a full SOC triage report consolidating all 6 incidents into a unified narrative
-- Each report covers: Executive Summary, Detection Details, Attack Timeline, Impact Assessment, Evidence, Containment Steps, and Recommendations
-- Applied CVE severity scoring concepts to vulnerability detector findings
-- Documentation standard mirrors the deliverable format expected from a tier-1 SOC analyst
-
-</details>
-
-<details>
-<summary><strong>▶ MITRE ATT&CK Framework Proficiency</strong></summary>
-<br/>
-
-- Mapped all 6 detections to specific MITRE ATT&CK Enterprise technique IDs with clickable references
-- Covered 4 distinct ATT&CK tactics: Credential Access, Execution, Persistence, Privilege Escalation, and Impact
-- Used the Wazuh MITRE dashboard heatmap to visualise technique coverage against the ATT&CK matrix
-- Understand how MITRE IDs connect observed technical behaviour to real-world threat actor TTPs
-- Incorporated MITRE IDs and tactic names directly into custom rule XML metadata
-
-</details>
-
----
-
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║                  SOC ANALYST SKILL MATRIX — THIS LAB                ║
-╠═══════════════════════════╦══════════════════════════════════════════╣
-║  SIEM Deployment          ║  Wazuh 4.7.5 all-in-one from scratch    ║
-║  Agent Enrollment         ║  Windows + Linux agents configured       ║
-║  Multi-source Log Ingest  ║  Unified telemetry from 2 OS platforms   ║
-║  Sysmon Configuration     ║  Process creation + PowerShell logging   ║
-║  Alert Triage             ║  Severity assessment + prioritisation    ║
-║  Root Cause Analysis      ║  Trace each alert back to raw log entry  ║
-║  MITRE ATT&CK Mapping     ║  6 techniques across 4+ tactics mapped  ║
-║  File Integrity Monitor   ║  FIM/Syscheck on /etc/hosts + more      ║
-║  Vulnerability Management ║  CVE scanning via Wazuh Vuln Detector   ║
-║  Incident Documentation   ║  6 formal IRs + 1 full triage report    ║
-║  Custom Rule Authoring    ║  Wazuh XML rules with MITRE metadata     ║
-╚═══════════════════════════╩══════════════════════════════════════════╝
-```
-
----
-
-## 💡 Lessons Learned
-
-<details>
-<summary><strong>▶ 6 key takeaways from building this lab</strong></summary>
-<br/>
-
-**1 — SIEM visibility is only as good as the log sources you connect.**
-Wazuh can only detect what it receives. Connecting Sysmon to the Windows endpoint multiplied the detection value compared to relying on Windows Event Logs alone. The PowerShell detection in this lab would not have been possible without Sysmon's command-line capture. In enterprise environments, this translates directly: identify blind spots in log collection before trying to tune detection rules.
-
-**2 — Sysmon transforms Windows endpoint visibility from adequate to excellent.**
-Default Windows Security logs tell you *that* a process launched — Sysmon tells you *exactly what it did*. Event ID 1 (Process Create) captures the complete command line, parent process, hash, and user context. Without Sysmon, encoded PowerShell commands and process injection would be nearly invisible. Sysmon is non-negotiable for any Windows endpoint in a detection-focused environment.
-
-**3 — `/var/log/auth.log` is a rich source that rewards careful reading.**
-The Linux auth log contains a complete account of SSH failures, successful logins, sudo usage, and authentication method. Learning to parse it manually (not just through a SIEM) built an intuition for what normal looks like — which is essential for distinguishing true positives from noise in triage.
-
-**4 — MITRE ATT&CK is a shared vocabulary, not just a compliance checkbox.**
-Tagging every alert with a MITRE technique ID means any analyst on any team immediately understands the behaviour context without re-reading the raw log. Writing IR reports with MITRE IDs forces you to precisely categorise what the attacker was *doing* — persistence, execution, credential access — not just what tool they used.
-
-**5 — Documentation is not a secondary task — it is the deliverable.**
-Detecting an attack is the first half of the SOC analyst's job. The second half is communicating clearly: what happened, when, on what system, with what evidence, what the risk is, and what should be done. Six structured IR reports made this concrete. The ability to write clearly under pressure is what separates a good analyst from a great one.
-
-**6 — Snapshots are infrastructure, not optional.**
-VirtualBox snapshots taken after each configuration milestone (Wazuh installed, agents enrolled, FIM enabled) reduced recovery time from hours to seconds when configuration errors occurred. In a real lab or production environment, this discipline translates to immutable infrastructure, configuration management, and backup policies.
-
-</details>
-
----
-
-## 🚀 Future Roadmap
-
-### Planned Improvements
-
-| Priority | Improvement | Expected Benefit |
-|----------|------------|-----------------|
-| 🔴 High | Add dedicated **Kali Linux attacker VM** (`.104`) | Realistic offensive simulation using Hydra, Nmap, Metasploit — replaces manual simulation |
-| 🔴 High | Enable **Wazuh Active Response** | Auto-block brute-force source IPs in real time — SOAR-adjacent capability |
-| 🟡 Medium | Deploy **auditd** on Ubuntu endpoint | Syscall-level Linux telemetry — deeper visibility beyond auth.log |
-| 🟡 Medium | Write and validate a **full custom rule library** | Lab-specific detection logic with tuned frequency thresholds and correlation rules |
-| 🟢 Low | Configure **Slack / email alerting pipeline** | Immediate notification on high-severity alerts — simulates real SOC alerting workflow |
-| 🟢 Low | Export **raw JSON alert artefacts** per incident | Forensic-grade evidence preservation in structured format |
-| 🟢 Low | Integrate **Atomic Red Team** for simulation | Standardised, repeatable MITRE-mapped attack library — more consistent test coverage |
-
-### Planned Future Architecture
-
-```
-╔═════════════════════════════════════════════════════════════════════════╗
-║              FUTURE ARCHITECTURE — 192.168.56.0/24                      ║
-╠═════════════════════════════════════════════════════════════════════════╣
-║                                                                          ║
-║  ┌───────────────┐  ┌──────────────────┐  ┌──────────────┐  ┌────────┐  ║
-║  │  WAZUH 4.7.5  │  │  WINDOWS 10 PRO  │  │ UBUNTU 22.04 │  │  KALI  │  ║
-║  │  .102         │◄►│  + Sysmon        │  │  + auditd    │◄─│  .104  │  ║
-║  │  + Active     │◄►│  .101            │  │  .103        │  │ ATTACK │  ║
-║  │  Response     │  └──────────────────┘  └──────────────┘  └────────┘  ║
-║  └──────┬────────┘                                                       ║
-║         │                                                                ║
-║         ▼  Automated Response + Alerting Pipeline                        ║
-║  ┌──────────────────────────────────────────────────────────────────┐   ║
-║  │  IP Auto-block · Slack notifications · JSON evidence export      │   ║
-║  │  Atomic Red Team integration · auditd syscall telemetry          │   ║
-║  └──────────────────────────────────────────────────────────────────┘   ║
-╚═════════════════════════════════════════════════════════════════════════╝
-```
-
----
-
-## 💼 Resume Bullet
-
-```
-Security Operations · SIEM · Detection Engineering · Incident Response
-
-Built a mini enterprise SOC lab using Wazuh SIEM/XDR 4.7.5 with a Windows 10
-(Sysmon) and Ubuntu 22.04 endpoint. Deployed all infrastructure from scratch
-in VirtualBox, configured multi-endpoint log collection, manually simulated
-6 real-world attack scenarios with zero synthetic injection, and confirmed
-100% detection rate. Mapped all detections to MITRE ATT&CK Enterprise
-(T1110.001, T1059.001, T1136.001, T1565.001, T1548.003 — 4 tactics covered).
-Enabled File Integrity Monitoring and CVE vulnerability detection. Authored
-6 formal Incident Response reports plus a full SOC triage document using
-professional IR structure. Wrote custom Wazuh XML detection rules with
-embedded MITRE ATT&CK metadata.
-```
-
----
-
-## ⚖️ Legal & Ethical Disclaimer
-
-```
-╔═════════════════════════════════════════════════════════════════════════╗
-║                          IMPORTANT NOTICE                                ║
-║                                                                           ║
-║  All attack simulations, log generation, and security testing in this    ║
-║  repository were performed EXCLUSIVELY in a self-owned, isolated         ║
-║  VirtualBox environment on a private host-only network                   ║
-║  (192.168.56.0/24) with no external internet routing at any point.       ║
-║                                                                           ║
-║  No real-world systems, corporate networks, cloud infrastructure,         ║
-║  or external endpoints were accessed or targeted.                         ║
-║                                                                           ║
-║  All simulations used manual triggers against self-owned virtual          ║
-║  machines only. This project exists for EDUCATIONAL AND PORTFOLIO         ║
-║  PURPOSES ONLY.                                                           ║
-╚═════════════════════════════════════════════════════════════════════════╝
-```
-
----
-
-## 📬 Contact
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_PROFILE)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jazz00001)
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-Profile-212C42?style=for-the-badge&logo=tryhackme&logoColor=red)](https://tryhackme.com/p/YOUR_USERNAME)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Jazz00001-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jazz00001)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jagriti%20Banerjee-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jagriti-banerjee)
+[![Email](https://img.shields.io/badge/Email-banerjeej100%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:banerjeej100@gmail.com)
 
 </div>
 
 ---
 
+## ⚖️ Legal and Ethical Disclaimer
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                            IMPORTANT NOTICE                                  ║
+║                                                                              ║
+║  All security testing activities documented in this repository were          ║
+║  performed exclusively in private, self-owned, or intentionally vulnerable  ║
+║  lab environments created for cybersecurity education and portfolio work.    ║
+║                                                                              ║
+║  This project does not include testing against third-party systems,          ║
+║  production systems, or any environment without authorization.               ║
+║                                                                              ║
+║  Techniques shown here must only be used where explicit permission has       ║
+║  been granted. Unauthorized security testing is illegal and unethical.       ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=shark&color=0:0d1117,50:051020,100:0d1117&height=140&section=footer&reversal=true" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:0a1628,60:0d2535,100:0d1117&height=140&section=footer" width="100%"/>
 
-*Detected. Investigated. Documented. Built from scratch with open-source tools.*
+**Built with discipline. Documented with evidence. Practised ethically.**
 
 <br/>
 
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=Jazz00001.enterprise-soc-lab-wazuh-mitre-detection&color=00b4d8&labelColor=0d1117)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Jazz00001.Enterprise-Security-Assessment-Lab&color=64ffda&labelColor=0d1117)
 &nbsp;&nbsp;
-![GitHub Stars](https://img.shields.io/github/stars/Jazz00001/enterprise-soc-lab-wazuh-mitre-detection?style=social)
+![Stars](https://img.shields.io/github/stars/Jazz00001/Enterprise-Security-Assessment-Lab?style=social)
 &nbsp;&nbsp;
-![GitHub Forks](https://img.shields.io/github/forks/Jazz00001/enterprise-soc-lab-wazuh-mitre-detection?style=social)
-
-<br/>
-
-**⭐ If this lab helped your own SOC journey, a star is always appreciated.**
-
-*Built with open-source tools · 100% reproducible · Portfolio-ready*
+![Forks](https://img.shields.io/github/forks/Jazz00001/Enterprise-Security-Assessment-Lab?style=social)
 
 </div>
