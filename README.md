@@ -63,7 +63,6 @@
 * [Problems Solved During the Lab](#problems-solved-during-the-lab)
 * [Future Improvements](#future-improvements)
 * [How to Reproduce This Lab](#how-to-reproduce-this-lab)
-* [Resume Bullet](#resume-bullet)
 * [Ethical Notice](#ethical-notice)
 
 ---
@@ -139,14 +138,6 @@ flowchart LR
 ![Lab Architecture](./architecture/Lab.png)
 
 </div>
-
-The lab was built using an isolated virtual network with three main systems:
-
-| System           | Operating System   |       IP Address | Purpose                                                   |
-| ---------------- | ------------------ | ---------------: | --------------------------------------------------------- |
-| Wazuh Server     | Ubuntu Server      | `192.168.56.102` | SIEM/XDR manager, indexer, dashboard, alert engine        |
-| Windows Endpoint | Windows 10 Pro     | `192.168.56.101` | Windows event logs, Sysmon telemetry, PowerShell activity |
-| Linux Endpoint   | Ubuntu 22.04.5 LTS | `192.168.56.103` | SSH logs, sudo logs, authentication logs, FIM monitoring  |
 
 ---
 
@@ -1109,29 +1100,6 @@ Agent issues, version mismatches, log visibility problems, and dashboard errors 
 
 ---
 
-# Resume Bullet
-
-```text
-Built and documented an enterprise-style SOC lab using Wazuh SIEM/XDR, Windows 10, Sysmon, and Ubuntu 22.04 in an isolated VirtualBox environment. Simulated and detected six security scenarios including Windows brute force, suspicious PowerShell execution, local user creation, Linux SSH brute force, file integrity modification, and sudo privilege escalation. Mapped detections to MITRE ATT&CK techniques, reviewed Wazuh alerts, enabled vulnerability detection, prepared custom Wazuh XML rules, and authored six incident response reports plus a full SOC triage report.
-```
-
----
-
-# Interview Talking Points
-
-If asked about this project in an interview, I can explain:
-
-* Why Wazuh was selected for the lab.
-* How Windows and Linux agents were enrolled.
-* Why Sysmon is important for PowerShell detection.
-* How Wazuh receives and correlates logs.
-* What each attack simulation generated at the log level.
-* How I verified alerts inside the dashboard.
-* How I mapped alerts to MITRE ATT&CK.
-* What I would improve in the next version of the lab.
-* How Active Response, auditd, Suricata, and SOAR could make the lab more advanced.
-
----
 
 # Repository Structure
 
@@ -1190,7 +1158,6 @@ The purpose of this project is defensive security training, SOC analysis, incide
 ### Built. Detected. Investigated. Documented.
 
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Jazz00001.enterprise-soc-lab-wazuh-mitre-detection\&color=00d4ff\&labelColor=0d1117)
-![GitHub Stars](https://img.shields.io/github/stars/Jazz00001/enterprise-soc-lab-wazuh-mitre-detection?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/Jazz00001/enterprise-soc-lab-wazuh-mitre-detection?style=social)
+
 
 </div>
