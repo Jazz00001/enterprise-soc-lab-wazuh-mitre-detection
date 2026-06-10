@@ -1058,23 +1058,28 @@ Wazuh Dashboard → Security Events
 
 # Key Lessons Learned
 
-## 1. Visibility depends on log quality
+1. Visibility depends on log quality
 
 The SIEM can only detect what it receives. Adding Sysmon improved Windows visibility significantly.
 
-## 2. Linux logs are extremely valuable
+
+2. Linux logs are extremely valuable
 
 `/var/log/auth.log` provides useful evidence for SSH activity, sudo usage, failed authentication, and privilege escalation.
 
-## 3. MITRE ATT&CK improves communication
+
+3. MITRE ATT&CK improves communication
 
 Mapping each alert to MITRE ATT&CK makes it easier to explain attacker behavior in professional terms.
 
-## 4. Detection is only half the job
+
+4. Detection is only half the job
 
 A SOC analyst must also document what happened, why it matters, what evidence supports the finding, and what should be done next.
 
-## 5. Troubleshooting is part of cybersecurity
+
+
+5. Troubleshooting is part of cybersecurity
 
 Agent issues, version mismatches, log visibility problems, and dashboard errors are realistic parts of SOC engineering work.
 
