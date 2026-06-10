@@ -1,5 +1,50 @@
 <div align="center">
 
+<img src="./assets/soc_readme_animated_banner.gif" width="100%" alt="Enterprise SOC Lab Animated Banner"/>
+
+<br/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono\&weight=700\&size=20\&duration=2200\&pause=700\&color=00E5FF\&center=true\&vCenter=true\&width=1050\&lines=Built+a+mini+enterprise+SOC+from+scratch;Deployed+Wazuh+SIEM+with+Windows+and+Linux+agents;Detected+Windows+Brute+Force+and+PowerShell+Activity;Detected+Linux+SSH+Brute+Force+and+Sudo+Escalation;Mapped+alerts+to+MITRE+ATT%26CK;Created+professional+incident+response+reports)](https://git.io/typing-svg)
+
+<br/>
+
+![Project Status](https://img.shields.io/badge/PROJECT-COMPLETED-00ff88?style=for-the-badge\&labelColor=0d1117)
+![SOC Lab](https://img.shields.io/badge/SOC-LAB-00d4ff?style=for-the-badge\&labelColor=0d1117)
+![Detection Rate](https://img.shields.io/badge/DETECTIONS-6%2F6-ff4757?style=for-the-badge\&labelColor=0d1117)
+![MITRE](https://img.shields.io/badge/MITRE-ATT%26CK-ffa502?style=for-the-badge\&labelColor=0d1117)
+![IR Reports](https://img.shields.io/badge/IR_REPORTS-6%2B_FULL_TRIAGE-8e44ad?style=for-the-badge\&labelColor=0d1117)
+
+<br/><br/>
+
+![Wazuh](https://img.shields.io/badge/Wazuh-4.7.5-005EB8?style=flat-square)
+![Windows](https://img.shields.io/badge/Windows-10_Pro-0078D6?style=flat-square\&logo=windows\&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04.5-E95420?style=flat-square\&logo=ubuntu\&logoColor=white)
+![Sysmon](https://img.shields.io/badge/Sysmon-Endpoint_Telemetry-0078D6?style=flat-square\&logo=windows\&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-Auth_Log_%2B_FIM-FCC624?style=flat-square\&logo=linux\&logoColor=black)
+![VirtualBox](https://img.shields.io/badge/VirtualBox-Isolated_Lab-183A61?style=flat-square\&logo=virtualbox\&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-Detection-5391FE?style=flat-square\&logo=powershell\&logoColor=white)
+![Wazuh Rules](https://img.shields.io/badge/Wazuh_Rules-XML-FF6B35?style=flat-square)
+![Blue Team](https://img.shields.io/badge/Blue_Team-Detection_Engineering-00BFFF?style=flat-square)
+
+<br/><br/>
+
+<h3>Real endpoint activity. Real Wazuh alerts. Real analyst workflow.</h3>
+
+<b>This project demonstrates the complete SOC process:</b>
+
+<br/><br/>
+
+<code>Build → Configure → Generate Logs → Detect → Investigate → Map to MITRE → Report → Improve</code>
+
+</div>
+
+---
+
+
+
+
+<div align="center">
+
 ![Project Status](https://img.shields.io/badge/PROJECT-COMPLETED-00ff88?style=for-the-badge\&labelColor=0d1117)
 ![SOC Lab](https://img.shields.io/badge/SOC-LAB-00d4ff?style=for-the-badge\&labelColor=0d1117)
 ![Detection Rate](https://img.shields.io/badge/DETECTIONS-6%2F6-ff4757?style=for-the-badge\&labelColor=0d1117)
