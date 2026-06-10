@@ -149,17 +149,7 @@ flowchart LR
 
 </div>
 
-```mermaid
-flowchart TB
-    subgraph HostOnly["Isolated Host-Only Network: 192.168.56.0/24"]
-        Wazuh["Wazuh SIEM Server<br/>192.168.56.102<br/>Manager + Indexer + Dashboard"]
-        Windows["Windows 10 Endpoint<br/>192.168.56.101<br/>Wazuh Agent + Sysmon"]
-        Ubuntu["Ubuntu Endpoint<br/>192.168.56.103<br/>Wazuh Agent + auth.log + FIM"]
-    end
-
-    Windows -->|"Security Events<br/>Sysmon Events<br/>PowerShell Logs"| Wazuh
-    Ubuntu -->|"auth.log<br/>SSH Logs<br/>sudo Logs<br/>FIM Events"| Wazuh
-    Wazuh --> Dashboard["Wazuh Dashboard<br/>Alert Triage + MITRE Mapping"]
+zuh --> Dashboard["Wazuh Dashboard<br/>Alert Triage + MITRE Mapping"]
 ```
 
 ---
@@ -199,19 +189,6 @@ flowchart TB
 </div>
 
 ---
-
-## Detection Result
-
-```text
-Total Scenarios Simulated:      6
-Total Scenarios Detected:       6
-Detection Coverage:             100%
-Windows Scenarios:              3
-Linux Scenarios:                3
-MITRE Techniques Covered:       5+
-Incident Reports Created:       6
-Full Triage Report Created:     1
-```
 
 ---
 
