@@ -1,3 +1,13 @@
+<!--
+Professional README for:
+Enterprise SOC Lab — Wazuh SIEM/XDR with MITRE ATT&CK Detection
+
+No dropdown version:
+- No <details> tags
+- No collapsible sections
+- Everything is visible directly in the README
+-->
+
 <div align="center">
 
 # 🛡️ Enterprise SOC Lab  
@@ -60,7 +70,7 @@
 
 This repository contains a fully documented **Enterprise SOC Lab** built using **Wazuh SIEM/XDR**, a **Windows 10 endpoint with Sysmon**, and an **Ubuntu 22.04 endpoint**.
 
-The lab simulates real-world attacker behaviors inside an isolated VirtualBox network and shows how a SOC analyst detects, investigates, maps, and reports security events.
+The lab simulates real-world attacker behaviors inside an isolated VirtualBox host-only network and shows how a SOC analyst detects, investigates, maps, and reports security events.
 
 This project includes:
 
@@ -79,18 +89,17 @@ This project includes:
 
 # 🎯 Why This Project Matters
 
-This project was built to practice the real responsibilities of a SOC Analyst / Cybersecurity Analyst.
+This project demonstrates the real workflow of a junior SOC analyst: collecting endpoint logs, identifying suspicious activity, validating alerts, mapping detections to MITRE ATT&CK, and documenting the investigation.
 
 | SOC Responsibility | How This Lab Demonstrates It |
 |---|---|
-| SIEM monitoring | Wazuh dashboard used for alert investigation |
+| SIEM monitoring | Wazuh dashboard used for alert review |
 | Endpoint visibility | Windows 10 + Sysmon and Ubuntu monitored with Wazuh agents |
-| Alert triage | Alerts reviewed with severity, rule ID, host, user, time, and event details |
+| Alert triage | Rule ID, severity, host, time, source, and raw log reviewed |
 | Threat detection | Brute force, PowerShell, account creation, SSH, FIM, and sudo activity detected |
-| MITRE mapping | Each detection mapped to an ATT&CK technique |
+| MITRE mapping | Each detection mapped to ATT&CK behavior |
 | Incident documentation | 6 incident reports and a full SOC triage report created |
-| Detection engineering | Custom rule examples prepared for future expansion |
-| Continuous improvement | Roadmap includes Kali VM, auditd, Active Response, and external alerting |
+| Detection improvement | Future roadmap includes custom rules, Kali VM, auditd, Active Response, and alerting |
 
 ---
 
@@ -102,8 +111,8 @@ flowchart LR
     B --> C[Enroll Windows Agent]
     B --> D[Enroll Ubuntu Agent]
     C --> E[Install Sysmon]
-    D --> F[Collect auth.log, SSH, sudo, FIM]
-    E --> G[Generate Attack Activity]
+    D --> F[Collect auth.log, SSH, sudo, and FIM]
+    E --> G[Generate Lab Attack Activity]
     F --> G
     G --> H[Wazuh Detection Rules]
     H --> I[Security Alert]
@@ -112,8 +121,6 @@ flowchart LR
     K --> L[Incident Report]
     L --> M[Detection Improvement Roadmap]
 ```
-
-> This is the full SOC loop: **activity creates logs → logs create alerts → alerts create investigations → investigations create reports → reports create improvements.**
 
 ---
 
@@ -140,8 +147,8 @@ flowchart TB
         WAZ["Wazuh SIEM/XDR 4.7.5<br>192.168.56.102<br>Manager + Indexer + Dashboard"]
     end
 
-    WIN -- "Windows logs / Sysmon events<br>port 1514" --> WAZ
-    LIN -- "Linux auth.log / SSH / sudo / FIM<br>port 1514" --> WAZ
+    WIN -- "Windows logs / Sysmon events / port 1514" --> WAZ
+    LIN -- "Linux auth.log / SSH / sudo / FIM / port 1514" --> WAZ
     WAZ --> DASH["Dashboard<br>Security Events + MITRE + Vulnerabilities"]
     DASH --> SOC["SOC Analyst<br>Triage + Reports"]
 ```
@@ -196,22 +203,21 @@ flowchart TB
 
 # ⚔️ Attack Simulation Deep Dive
 
-The simulations were performed inside an isolated lab environment only. The goal was not exploitation against real systems, but **safe log generation, detection validation, alert triage, and reporting**.
+The simulations were performed only inside an isolated lab environment. The goal was safe log generation, detection validation, alert triage, and reporting.
 
 ---
 
-<details>
-<summary><strong>Scenario 01 — Windows Brute Force / Failed Login Attempts</strong></summary>
+## Scenario 01 — Windows Brute Force / Failed Login Attempts
 
-## Objective
+### Objective
 
 Simulate repeated failed Windows login attempts and validate that Wazuh detects authentication failures.
 
-## Attack Behavior
+### Attack Behavior
 
 Repeated failed login attempts were generated against the Windows endpoint.
 
-## Log Source
+### Log Source
 
 | Field | Value |
 |---|---|
@@ -221,7 +227,7 @@ Repeated failed login attempts were generated against the Windows endpoint.
 | Detection Type | Authentication failure / brute force behavior |
 | MITRE Mapping | T1110.001 — Password Guessing |
 
-## Detection Chain
+### Detection Chain
 
 ```mermaid
 sequenceDiagram
@@ -239,30 +245,27 @@ sequenceDiagram
     Manager->>Analyst: Brute force alert visible
 ```
 
-## Analyst Notes
+### Analyst Notes
 
 This alert matters because repeated failed logins may indicate password guessing, credential stuffing, or unauthorized access attempts. A real analyst would check source IP, targeted account, failure count, time window, and whether a successful login occurred afterward.
 
-</details>
-
 ---
 
-<details>
-<summary><strong>Scenario 02 — Suspicious PowerShell Execution</strong></summary>
+## Scenario 02 — Suspicious PowerShell Execution
 
-## Objective
+### Objective
 
 Simulate suspicious PowerShell execution and confirm that Wazuh detects it using Windows telemetry and Sysmon.
 
-## Attack Behavior
+### Attack Behavior
 
 PowerShell was executed with suspicious command-line behavior commonly associated with attacker activity, such as encoded execution or bypass-style flags.
 
-## Why This Matters
+### Why This Matters
 
 PowerShell is frequently abused because it is already present on Windows systems and can be used for execution, defense evasion, payload staging, and post-exploitation activity.
 
-## Log Source
+### Log Source
 
 | Field | Value |
 |---|---|
@@ -272,7 +275,7 @@ PowerShell is frequently abused because it is already present on Windows systems
 | Detection Focus | Command line, parent process, suspicious flags |
 | MITRE Mapping | T1059.001 — PowerShell |
 
-## Detection Chain
+### Detection Chain
 
 ```mermaid
 sequenceDiagram
@@ -290,30 +293,27 @@ sequenceDiagram
     Wazuh->>Dash: Alert generated
 ```
 
-## Analyst Notes
+### Analyst Notes
 
 Sysmon is one of the strongest parts of the lab because it gives visibility into process execution, command line, parent process, process IDs, and hashes.
 
-</details>
-
 ---
 
-<details>
-<summary><strong>Scenario 03 — New Local User Creation</strong></summary>
+## Scenario 03 — New Local User Creation
 
-## Objective
+### Objective
 
 Detect local Windows account creation.
 
-## Attack Behavior
+### Attack Behavior
 
 A new local user account was created on the Windows endpoint.
 
-## Why This Matters
+### Why This Matters
 
 Attackers may create local accounts after initial access to maintain persistence.
 
-## Log Source
+### Log Source
 
 | Field | Value |
 |---|---|
@@ -323,7 +323,7 @@ Attackers may create local accounts after initial access to maintain persistence
 | Detection Type | Local account creation |
 | MITRE Mapping | T1136.001 — Create Account: Local Account |
 
-## Investigation Questions
+### Investigation Questions
 
 - Was the account created by an approved administrator?
 - Was this activity part of planned maintenance?
@@ -332,18 +332,15 @@ Attackers may create local accounts after initial access to maintain persistence
 - Did the account log in afterward?
 - Did it happen after brute force or PowerShell activity?
 
-</details>
-
 ---
 
-<details>
-<summary><strong>Scenario 04 — Linux SSH Brute Force</strong></summary>
+## Scenario 04 — Linux SSH Brute Force
 
-## Objective
+### Objective
 
 Simulate repeated SSH failures against Ubuntu and confirm Wazuh detects SSH brute force behavior.
 
-## Log Source
+### Log Source
 
 | Field | Value |
 |---|---|
@@ -353,7 +350,7 @@ Simulate repeated SSH failures against Ubuntu and confirm Wazuh detects SSH brut
 | Detection Type | Failed SSH authentication |
 | MITRE Mapping | T1110.001 — Password Guessing |
 
-## Detection Chain
+### Detection Chain
 
 ```mermaid
 sequenceDiagram
@@ -372,32 +369,29 @@ sequenceDiagram
     Wazuh->>SOC: Alert created
 ```
 
-## Analyst Notes
+### Analyst Notes
 
 SSH brute force is a common initial access attempt against Linux servers. Analysts should check source IP, username attempted, number of attempts, time window, and whether any successful login followed.
 
-</details>
-
 ---
 
-<details>
-<summary><strong>Scenario 05 — File Integrity Monitoring: /etc/hosts Modified</strong></summary>
+## Scenario 05 — File Integrity Monitoring: `/etc/hosts` Modified
 
-## Objective
+### Objective
 
 Detect unauthorized modification to a sensitive Linux file using Wazuh File Integrity Monitoring.
 
-## File Modified
+### File Modified
 
 ```text
 /etc/hosts
 ```
 
-## Why This Matters
+### Why This Matters
 
 Attackers can modify host resolution files to redirect traffic, support persistence, or interfere with system behavior.
 
-## Detection Chain
+### Detection Chain
 
 ```mermaid
 flowchart LR
@@ -408,26 +402,23 @@ flowchart LR
     E --> F["MITRE T1565.001 Stored Data Manipulation"]
 ```
 
-## Investigation Notes
+### Investigation Notes
 
 A SOC analyst should check what changed, who changed it, whether the change was approved, and whether the file was modified during suspicious activity.
 
-</details>
-
 ---
 
-<details>
-<summary><strong>Scenario 06 — Linux sudo Privilege Escalation</strong></summary>
+## Scenario 06 — Linux sudo Privilege Escalation
 
-## Objective
+### Objective
 
 Detect successful and failed sudo activity on the Ubuntu endpoint.
 
-## Why This Matters
+### Why This Matters
 
 `sudo` allows a user to run commands as root. Attackers often attempt privilege escalation after initial access.
 
-## Commands Tested
+### Commands Tested
 
 ```bash
 sudo ls /root
@@ -436,7 +427,7 @@ sudo cat /etc/shadow
 sudo su root
 ```
 
-## Wazuh Rules Observed
+### Wazuh Rules Observed
 
 | Rule ID | Description |
 |---|---|
@@ -444,13 +435,11 @@ sudo su root
 | 5404 | Three failed attempts to run sudo |
 | 5503 | PAM: User login failed |
 
-## MITRE Mapping
+### MITRE Mapping
 
 | MITRE ID | Technique | Tactic |
 |---|---|---|
 | T1548.003 | Sudo and Sudo Caching | Privilege Escalation |
-
-</details>
 
 ---
 
