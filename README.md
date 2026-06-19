@@ -415,7 +415,6 @@ Linux SSH brute force alerts are high-value because SSH is a common remote acces
 
 ![MITRE SSH Details](./screenshots/MITRE%20SHH%20details.png)
 
-![Attack 4 Ubuntu](./screenshots/Attack%204%20%23U2014%20brute%20force%20SSH%20on%20Linux%20%28%20Uuntu%29.png)
 
 ---
 
@@ -446,12 +445,13 @@ The `/etc/hosts` file can override DNS resolution locally. If an attacker modifi
 ### Detection Chain
 
 ```mermaid
+```mermaid
 flowchart TB
-    A[/etc/hosts file modified] --> B[Wazuh Syscheck detects file change]
-    B --> C[Checksum comparison changed]
-    C --> D[Wazuh FIM alert generated]
-    D --> E[Analyst reviews file path, timestamp, old hash, new hash]
-    E --> F[Incident report created]
+    A["/etc/hosts file modified"] --> B["Wazuh Syscheck detects file change"]
+    B --> C["Checksum comparison completed"]
+    C --> D["Wazuh FIM alert generated"]
+    D --> E["Analyst reviews file path, timestamp, old hash, and new hash"]
+    E --> F["Incident report created"]
 ```
 
 ### Analyst Notes
