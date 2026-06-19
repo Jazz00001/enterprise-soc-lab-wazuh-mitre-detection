@@ -1075,43 +1075,6 @@ Agent issues, version mismatches, log visibility problems, and dashboard errors 
 ---
 
 
-# Repository Structure
-
-```text
-enterprise-soc-lab-wazuh-mitre-detection/
-│
-├── README.md
-│
-├── architecture/
-│   ├── Lab.png
-│   └── Network.png
-│
-├── screenshots/
-│   ├── Wazuh-dashboard
-│   ├── agents-connected
-│   ├── brute-force-alert
-│   ├── powershell-alert
-│   ├── new-user-alert
-│   ├── linux-ssh-brute-force-alert
-│   ├── fim-alert
-│   ├── sudo-privilege-escalation-alert
-│   ├── mitre-dashboard
-│   ├── future-network-diagram.png
-│   └── additional setup and evidence screenshots
-│
-├── Reports/
-│   ├── IR-001-Windows-Brute-Force-Failed-Logins.pdf
-│   ├── IR-002-Suspicious-PowerShell-Execution.pdf
-│   ├── IR-003-New-Local-User-Creation-Windows.pdf
-│   ├── IR-004-Linux-SSH-Brute-Force.pdf
-│   ├── IR-005-File-Integrity-Monitoring-Hosts-Modified.pdf
-│   ├── IR-006-Linux-Sudo-Privilege-Escalation.pdf
-│   ├── SOC-Lab-Full-Triage-Report.pdf
-│   └── Improvement-doc.pdf
-│
-└── Rules/
-    └── custom-rules.xml
-```
 
 ---
 
