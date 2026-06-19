@@ -445,7 +445,6 @@ The `/etc/hosts` file can override DNS resolution locally. If an attacker modifi
 ### Detection Chain
 
 ```mermaid
-```mermaid
 flowchart TB
     A["/etc/hosts file modified"] --> B["Wazuh Syscheck detects file change"]
     B --> C["Checksum comparison completed"]
